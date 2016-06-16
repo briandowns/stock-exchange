@@ -18,6 +18,6 @@ func (c CUSIP) Validate() bool {
 
 // Symbol represents a stock
 type Symbol struct {
-	Name string
 	CUSIP
+	Name string
 }
