@@ -8,6 +8,7 @@ import (
 	"os/signal"
 
 	"github.com/briandowns/stock-exchange/models"
+
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
 	"github.com/thoas/stats"
@@ -35,8 +36,7 @@ func main() {
 	ren := render.New()
 
 	ob := models.NewOrderBook()
-	ob2 := models.NewOrderBook()
-	fmt.Println(ob2)
+
 	n := negroni.New(
 		negroni.NewRecovery(),
 		negroni.NewLogger(),
@@ -76,7 +76,8 @@ func main() {
 		if err != nil {
 			log.Fatalln(err)
 		}
-		ren.JSON(w, http.StatusOK, cd)
+		fmt.Println(cd)
+		ren.JSON(w, http.StatusOK, map[string]interface{}{"company_data": cd})
 	}).Methods("GET")
 
 	n.Use(statsMiddleware)
