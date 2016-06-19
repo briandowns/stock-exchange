@@ -7,6 +7,7 @@ import (
 	"os"
 	"os/signal"
 
+	"github.com/briandowns/stock-exchange/models"
 	"github.com/codegangsta/negroni"
 	"github.com/gorilla/mux"
 	"github.com/thoas/stats"
@@ -25,7 +26,7 @@ func main() {
 
 	go func() {
 		for sig := range signalsChan {
-			log.Printf("Exiting... %v\n", sig)
+			fmt.Printf("\nEngine shutting down... %v\n", sig)
 			signalsChan = nil
 			os.Exit(1)
 		}
@@ -33,7 +34,9 @@ func main() {
 
 	ren := render.New()
 
-	//ob := models.NewOrderBook()
+	ob := models.NewOrderBook()
+	ob2 := models.NewOrderBook()
+	fmt.Println(ob2)
 	n := negroni.New(
 		negroni.NewRecovery(),
 		negroni.NewLogger(),
@@ -57,7 +60,7 @@ func main() {
 
 	// route handler for the book
 	router.HandleFunc(APIBase+"book", func(w http.ResponseWriter, r *http.Request) {
-		ren.JSON(w, http.StatusOK, "book")
+		ren.JSON(w, http.StatusOK, ob)
 	}).Methods("GET")
 
 	// route handler for individual book entries
@@ -65,6 +68,15 @@ func main() {
 		vars := mux.Vars(r)
 		bookID := vars["id"]
 		ren.JSON(w, http.StatusOK, bookID)
+	}).Methods("GET")
+
+	// route handler for viewing comapny data
+	router.HandleFunc(APIBase+"companydata", func(w http.ResponseWriter, r *http.Request) {
+		cd, err := generateCompanyData()
+		if err != nil {
+			log.Fatalln(err)
+		}
+		ren.JSON(w, http.StatusOK, cd)
 	}).Methods("GET")
 
 	n.Use(statsMiddleware)
