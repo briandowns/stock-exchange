@@ -28,4 +28,5 @@ _testmain.go
 .idea
 *.iml
 
-engine/engine
+./engine/engine
+engine/*.db
