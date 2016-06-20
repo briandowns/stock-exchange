@@ -58,13 +58,13 @@ func main() {
 	router.HandleFunc(BookPath, BookHandler(ren, ob)).Methods("GET")
 
 	// route handler for individual book entries
-	router.HandleFunc(BookByIDPath, BookEntryByIDHandler(ren)).Methods("GET")
+	router.HandleFunc(BookEntryByIDPath, BookEntryByIDHandler(ren)).Methods("GET")
 
 	// route handler for viewing symbol data
-	router.HandleFunc(SymbolPath, SymbolsHandler(ren, cacher)).Methods("GET")
+	router.HandleFunc(SymbolsPath, SymbolsHandler(ren, cacher)).Methods("GET")
 
 	// route handler for viewing symbol data by ID
-	router.HandleFunc(SymbolsByIDPath, SymbolByIDHandler(ren, cacher)).Methods("GET")
+	router.HandleFunc(SymbolByIDPath, SymbolByIDHandler(ren, cacher)).Methods("GET")
 
 	n.Use(statsMiddleware)
 	n.UseHandler(router)

@@ -17,13 +17,14 @@ const (
 	// APIBase is the base path for API access
 	APIBase = "/api/v1/"
 
-	BookPath   = APIBase + "book"
-	SymbolPath = APIBase + "symbols"
-
 	HealthCheckPath = APIBase + "healthcheck"
 	StatsPath       = APIBase + "stats"
-	BookByIDPath    = "book" + ByID
-	SymbolsByIDPath = "symbol" + ByID
+
+	BookPath          = APIBase + "book"
+	BookEntryByIDPath = APIBase + "book" + ByID
+
+	SymbolByIDPath = APIBase + "symbol" + ByID
+	SymbolsPath    = APIBase + "symbols"
 )
 
 // HealthCheckHandler
