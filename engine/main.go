@@ -79,7 +79,7 @@ func main() {
 
 	// route handler for viewing symbol data
 	router.HandleFunc(APIBase+"symbols", func(w http.ResponseWriter, r *http.Request) {
-		cd, err := generateCompanyData()
+		cd, err := cacher.All()
 		if err != nil {
 			log.Fatalln(err)
 		}

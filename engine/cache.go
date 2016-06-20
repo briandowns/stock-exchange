@@ -12,8 +12,8 @@ import (
 	"github.com/briandowns/stock-exchange/models"
 )
 
-const symbolCacheFile = "symbol_cache.db"
-const companyDataFile = "data/nasdaq.json"
+const symbolCacheDB = "symbol_cache.db"
+const symbolDataFile = "data/nasdaq.json"
 
 var bucketName = []byte("symbol_cache")
 
@@ -22,6 +22,7 @@ type Cacher interface {
 	Build() error
 	Get(key []byte) (models.Company, error)
 	Put(key []byte, value models.Company) error
+	All() ([]models.Company, error)
 }
 
 // SymbolCache holds the db conn
@@ -30,22 +31,22 @@ type SymbolCache struct {
 	DB   *bolt.DB
 }
 
-// NewSymbolCache
+// NewSymbolCache creates a new symbol cache
 func NewSymbolCache() (*SymbolCache, error) {
 	var err error
 	s := SymbolCache{
 		Lock: &sync.Mutex{},
 	}
-	s.DB, err = bolt.Open(symbolCacheFile, 0644, nil)
+	s.DB, err = bolt.Open(symbolCacheDB, 0644, nil)
 	if err != nil {
 		return nil, err
 	}
 	return &s, nil
 }
 
-// generateCompanyData
-func generateCompanyData() ([]models.Company, error) {
-	f, err := os.Open(companyDataFile)
+// generateSymbolData
+func generateSymbolData() ([]models.Company, error) {
+	f, err := os.Open(symbolDataFile)
 	if err != nil {
 		return nil, err
 	}
@@ -64,7 +65,7 @@ func (s *SymbolCache) Build() error {
 	s.Lock.Lock()
 	defer s.Lock.Unlock()
 
-	cache, err := generateCompanyData()
+	cache, err := generateSymbolData()
 	if err != nil {
 		return err
 	}
@@ -120,4 +121,30 @@ func (s *SymbolCache) Put(key []byte, value models.Company) error {
 	s.Lock.Lock()
 	defer s.Lock.Unlock()
 	return nil
+}
+
+// All gets all keys
+func (s *SymbolCache) All() ([]models.Company, error) {
+	s.Lock.Lock()
+	defer s.Lock.Unlock()
+	var cd []models.Company
+	err := s.DB.Update(func(tx *bolt.Tx) error {
+		bucket := tx.Bucket(bucketName)
+		var company models.Company
+		if err := bucket.ForEach(func(k, v []byte) error {
+			decoder := json.NewDecoder(strings.NewReader(string(v)))
+			if err := decoder.Decode(&company); err != nil {
+				return err
+			}
+			cd = append(cd, company)
+			return nil
+		}); err != nil {
+			return err
+		}
+		return nil
+	})
+	if err != nil {
+		return nil, err
+	}
+	return cd, nil
 }
