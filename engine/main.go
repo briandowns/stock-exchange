@@ -68,6 +68,12 @@ func main() {
 	// route handler for viewing symbol data by ID
 	router.HandleFunc(SymbolByIDPath, SymbolByIDHandler(ren, cacher)).Methods("GET")
 
+	// route handler for adding trades
+	router.HandleFunc(OrderPath, AddOrderHandler(ren, ob)).Methods("POST")
+
+	// route handler for canceling trades
+	router.HandleFunc(OrderPath, CancelTradeHandler(ren, ob)).Methods("DELETE")
+
 	n.Use(statsMiddleware)
 	n.UseHandler(router)
 	n.Run(":7777")

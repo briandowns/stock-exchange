@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"log"
 	"net/http"
@@ -25,6 +26,8 @@ const (
 
 	SymbolByIDPath = APIBase + "symbol" + ByID
 	SymbolsPath    = APIBase + "symbols"
+
+	OrderPath = APIBase + "order"
 )
 
 // HealthCheckHandler
@@ -80,5 +83,27 @@ func BookEntryByIDHandler(ren *render.Render) http.HandlerFunc {
 		vars := mux.Vars(r)
 		bookID := vars["id"]
 		ren.JSON(w, http.StatusOK, bookID)
+	}
+}
+
+// AddOrderHandler
+func AddOrderHandler(ren *render.Render, ob *models.OrderBook) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		var order models.Order
+		decoder := json.NewDecoder(r.Body)
+		if err := decoder.Decode(&order); err != nil {
+			ren.JSON(w, http.StatusInternalServerError, map[string]interface{}{"": "error adding new order"})
+			return
+		}
+		ren.JSON(w, http.StatusCreated, order)
+	}
+}
+
+// CancelTradeHandler
+func CancelTradeHandler(ren *render.Render, ob *models.OrderBook) http.HandlerFunc {
+	return func(w http.ResponseWriter, r *http.Request) {
+		vars := mux.Vars(r)
+		orderID := vars["id"]
+		ren.JSON(w, http.StatusOK, map[string]interface{}{"id": orderID})
 	}
 }
