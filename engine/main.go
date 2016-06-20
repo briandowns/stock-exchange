@@ -33,6 +33,13 @@ func main() {
 		}
 	}()
 
+	sc, err := NewSymbolCache()
+	if err != nil {
+		log.Fatal(err)
+	}
+	cacher := Cacher(sc)
+	cacher.Build()
+
 	ren := render.New()
 
 	ob := models.NewOrderBook()
@@ -70,14 +77,25 @@ func main() {
 		ren.JSON(w, http.StatusOK, bookID)
 	}).Methods("GET")
 
-	// route handler for viewing comapny data
-	router.HandleFunc(APIBase+"companydata", func(w http.ResponseWriter, r *http.Request) {
+	// route handler for viewing symbol data
+	router.HandleFunc(APIBase+"symbols", func(w http.ResponseWriter, r *http.Request) {
 		cd, err := generateCompanyData()
 		if err != nil {
 			log.Fatalln(err)
 		}
-		fmt.Println(cd)
-		ren.JSON(w, http.StatusOK, map[string]interface{}{"company_data": cd})
+		ren.JSON(w, http.StatusOK, map[string]interface{}{"symbols": cd})
+	}).Methods("GET")
+
+	// route handler for viewing symbol data
+	router.HandleFunc(APIBase+"symbol/{id}", func(w http.ResponseWriter, r *http.Request) {
+		vars := mux.Vars(r)
+		symbolID := vars["id"]
+		data, err := cacher.Get([]byte(symbolID))
+		if err != nil {
+			ren.JSON(w, http.StatusOK, map[string]interface{}{"error": "symbol not found"})
+			return
+		}
+		ren.JSON(w, http.StatusOK, map[string]interface{}{"symbol": data})
 	}).Methods("GET")
 
 	n.Use(statsMiddleware)
