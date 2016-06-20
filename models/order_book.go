@@ -1,6 +1,9 @@
 package models
 
-import "time"
+import (
+	"sync"
+	"time"
+)
 
 // Order represents an order
 type Order struct {
@@ -11,6 +14,7 @@ type Order struct {
 
 // OrderBook represents the current state of the market
 type OrderBook struct {
+	Lock   sync.Locker
 	Orders []Order
 }
 
@@ -35,3 +39,16 @@ func NewOrderBook() *OrderBook {
 		Orders: make([]Order, 0),
 	}
 }
+
+// AddOrder adds an order to the book
+func (o *OrderBook) AddOrder(order Order) bool {
+	return true
+}
+
+// removeOrder removes an order from the book
+func (o *OrderBook) removeOrder() bool {
+	return true
+}
+
+// Execute
+func (o *OrderBook) Execute() {}

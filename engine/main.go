@@ -6,6 +6,7 @@ import (
 	"os"
 	"os/signal"
 
+	"github.com/briandowns/stock-exchange/database"
 	"github.com/briandowns/stock-exchange/models"
 
 	"github.com/codegangsta/negroni"
@@ -13,6 +14,8 @@ import (
 	"github.com/thoas/stats"
 	"github.com/unrolled/render"
 )
+
+const dbName = "engine_database"
 
 var signalsChan = make(chan os.Signal, 1)
 
@@ -27,14 +30,13 @@ func main() {
 		}
 	}()
 
-	sc, err := NewSymbolCache()
+	db, err := database.NewDB(dbName)
 	if err != nil {
 		log.Fatal(err)
 	}
+	sc := NewSymbolCache(db)
 	cacher := Cacher(sc)
 	cacher.Build()
-
-	ren := render.New()
 
 	ob := models.NewOrderBook()
 
@@ -42,8 +44,8 @@ func main() {
 		negroni.NewRecovery(),
 		negroni.NewLogger(),
 	)
-
 	statsMiddleware := stats.New()
+	ren := render.New()
 
 	// create the router
 	router := mux.NewRouter()

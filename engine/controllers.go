@@ -45,7 +45,7 @@ func StatsHandler(ren *render.Render, statsMW *stats.Stats) http.HandlerFunc {
 // SymbolsHandler
 func SymbolsHandler(ren *render.Render, cacher Cacher) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
-		cd, err := cacher.All()
+		cd, err := cacher.Entries()
 		if err != nil {
 			log.Fatalln(err)
 		}
