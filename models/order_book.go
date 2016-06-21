@@ -27,8 +27,8 @@ func (o Order) Validate() bool {
 
 // OrderBook represents the current state of the market
 type OrderBook struct {
-	Lock   sync.Locker
-	Orders []Order
+	Lock   sync.Locker `json:"-"`
+	Orders []Order     `json:"orders"`
 }
 
 // Len gets the length of the
