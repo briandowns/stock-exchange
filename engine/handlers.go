@@ -28,7 +28,8 @@ const (
 	SymbolByIDPath = APIBase + "symbol" + ByID
 	SymbolsPath    = APIBase + "symbols"
 
-	OrderPath = APIBase + "order"
+	OrderPath       = APIBase + "order"
+	CancelOrderPath = OrderPath + ByID
 )
 
 // HealthCheckHandler
@@ -105,11 +106,12 @@ func AddOrderHandler(ren *render.Render, ob *models.OrderBook) http.HandlerFunc 
 	}
 }
 
-// CancelTradeHandler
+// CancelTradeHandler will receive requests to cancel pending trades
 func CancelTradeHandler(ren *render.Render, ob *models.OrderBook) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		vars := mux.Vars(r)
 		orderID := vars["id"]
+		ob.Cancel(orderID)
 		ren.JSON(w, http.StatusOK, map[string]interface{}{"id": orderID})
 	}
 }

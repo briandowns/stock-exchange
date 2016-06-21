@@ -15,7 +15,7 @@ import (
 	"github.com/unrolled/render"
 )
 
-const dbName = "engine_database"
+const dbName = "engine_database.db"
 
 var signalsChan = make(chan os.Signal, 1)
 
@@ -72,7 +72,7 @@ func main() {
 	router.HandleFunc(OrderPath, AddOrderHandler(ren, ob)).Methods("POST")
 
 	// route handler for canceling trades
-	router.HandleFunc(OrderPath, CancelTradeHandler(ren, ob)).Methods("DELETE")
+	router.HandleFunc(CancelOrderPath, CancelTradeHandler(ren, ob)).Methods("DELETE")
 
 	n.Use(statsMiddleware)
 	n.UseHandler(router)
