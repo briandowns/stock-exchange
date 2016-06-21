@@ -1,6 +1,7 @@
 package models
 
 import (
+	"sort"
 	"sync"
 	"time"
 
@@ -9,8 +10,9 @@ import (
 
 // Order represents an order
 type Order struct {
-	Symbol   string    `validate:""`
-	Time     time.Time `validate:""`
+	ID       int
+	Symbol   string    `validate:"nonzero"`
+	Time     time.Time `validate:"nonzero"`
 	Quantity int       `validate:"nonzero"`
 	Bid      float64   `validate:"nonzero"`
 }
@@ -47,18 +49,26 @@ func (o *OrderBook) Swap(i, j int) {
 // NewOrderBook creates a new value of type OrderBook pointer
 func NewOrderBook() *OrderBook {
 	return &OrderBook{
+		Lock:   &sync.Mutex{},
 		Orders: make([]Order, 0),
 	}
 }
 
-// AddOrder adds an order to the book
-func (o *OrderBook) AddOrder(order Order) bool {
-	return true
+// Add adds an order to the book
+func (o *OrderBook) Add(order Order) error {
+	o.Lock.Lock()
+	defer o.Lock.Unlock()
+	o.Orders = append(o.Orders, order)
+	sort.Sort(o)
+	return nil
 }
 
-// removeOrder removes an order from the book
-func (o *OrderBook) removeOrder() bool {
-	return true
+// Cancel removes an order from the book
+func (o *OrderBook) Cancel(order Order) error {
+	o.Lock.Lock()
+	defer o.Lock.Unlock()
+	o.Orders = append(o.Orders[:order.ID], o.Orders[order.ID+1:]...)
+	return nil
 }
 
 // Execute

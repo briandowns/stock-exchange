@@ -92,7 +92,11 @@ func AddOrderHandler(ren *render.Render, ob *models.OrderBook) http.HandlerFunc 
 		var order models.Order
 		decoder := json.NewDecoder(r.Body)
 		if err := decoder.Decode(&order); err != nil {
-			ren.JSON(w, http.StatusInternalServerError, map[string]interface{}{"": "error adding new order"})
+			ren.JSON(w, http.StatusInternalServerError, map[string]interface{}{"error": "error marshalling JSON"})
+			return
+		}
+		if err := ob.Add(order); err != nil {
+			ren.JSON(w, http.StatusInternalServerError, map[string]interface{}{"error": "error adding new order"})
 			return
 		}
 		ren.JSON(w, http.StatusCreated, order)
