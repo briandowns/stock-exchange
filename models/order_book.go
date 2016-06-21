@@ -3,13 +3,24 @@ package models
 import (
 	"sync"
 	"time"
+
+	"gopkg.in/validator.v2"
 )
 
 // Order represents an order
 type Order struct {
-	Time     time.Time
-	Quantity int
-	Bid      float64
+	Symbol   string    `validate:""`
+	Time     time.Time `validate:""`
+	Quantity int       `validate:"nonzero"`
+	Bid      float64   `validate:"nonzero"`
+}
+
+// Validate will make sure that all fields are filled in
+func (o Order) Validate() bool {
+	if errs := validator.Validate(o); errs != nil {
+		return false
+	}
+	return true
 }
 
 // OrderBook represents the current state of the market
