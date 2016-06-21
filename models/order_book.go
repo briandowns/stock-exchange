@@ -10,7 +10,7 @@ import (
 
 // Order represents an order
 type Order struct {
-	ID       int
+	ID       string    `validate:len=32`
 	Symbol   string    `validate:"nonzero"`
 	Time     time.Time `validate:"nonzero"`
 	Quantity int       `validate:"nonzero"`
@@ -67,7 +67,12 @@ func (o *OrderBook) Add(order Order) error {
 func (o *OrderBook) Cancel(order Order) error {
 	o.Lock.Lock()
 	defer o.Lock.Unlock()
-	o.Orders = append(o.Orders[:order.ID], o.Orders[order.ID+1:]...)
+	for idx, i := range o.Orders {
+		if i.ID == order.ID {
+			o.Orders = append(o.Orders[:1], o.Orders[idx+1:]...)
+			return nil
+		}
+	}
 	return nil
 }
 

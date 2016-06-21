@@ -8,6 +8,7 @@ import (
 
 	"github.com/briandowns/stock-exchange/models"
 	"github.com/gorilla/mux"
+	"github.com/pborman/uuid"
 	"github.com/thoas/stats"
 	"github.com/unrolled/render"
 )
@@ -92,11 +93,12 @@ func AddOrderHandler(ren *render.Render, ob *models.OrderBook) http.HandlerFunc 
 		var order models.Order
 		decoder := json.NewDecoder(r.Body)
 		if err := decoder.Decode(&order); err != nil {
-			ren.JSON(w, http.StatusInternalServerError, map[string]interface{}{"error": "error marshalling JSON"})
+			ren.JSON(w, http.StatusInternalServerError, map[string]interface{}{"error": err})
 			return
 		}
+		order.ID = uuid.NewUUID().String()
 		if err := ob.Add(order); err != nil {
-			ren.JSON(w, http.StatusInternalServerError, map[string]interface{}{"error": "error adding new order"})
+			ren.JSON(w, http.StatusInternalServerError, map[string]interface{}{"error": err})
 			return
 		}
 		ren.JSON(w, http.StatusCreated, order)
