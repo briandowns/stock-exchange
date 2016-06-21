@@ -34,9 +34,11 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	sc := NewSymbolCache(db)
-	cacher := Cacher(sc)
-	cacher.Build()
+
+	cache := Cache{
+		NewBoltCache(db),
+	}
+	cache.Build()
 
 	ob := models.NewOrderBook()
 
@@ -63,10 +65,10 @@ func main() {
 	router.HandleFunc(BookEntryByIDPath, BookEntryByIDHandler(ren)).Methods("GET")
 
 	// route handler for viewing symbol data
-	router.HandleFunc(SymbolsPath, SymbolsHandler(ren, cacher)).Methods("GET")
+	router.HandleFunc(SymbolsPath, SymbolsHandler(ren, cache)).Methods("GET")
 
 	// route handler for viewing symbol data by ID
-	router.HandleFunc(SymbolByIDPath, SymbolByIDHandler(ren, cacher)).Methods("GET")
+	router.HandleFunc(SymbolByIDPath, SymbolByIDHandler(ren, cache)).Methods("GET")
 
 	// route handler for adding trades
 	router.HandleFunc(OrderPath, AddOrderHandler(ren, ob)).Methods("POST")
