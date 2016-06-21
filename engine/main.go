@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 	"log"
-	"net/http"
 	"os"
 	"os/signal"
 
+	"github.com/briandowns/stock-exchange/database"
 	"github.com/briandowns/stock-exchange/models"
 
 	"github.com/codegangsta/negroni"
@@ -15,10 +15,7 @@ import (
 	"github.com/unrolled/render"
 )
 
-const (
-	// APIBase is the base path for API access
-	APIBase = "/api/v1/"
-)
+const dbName = "data/engine_database.db"
 
 var signalsChan = make(chan os.Signal, 1)
 
@@ -33,14 +30,13 @@ func main() {
 		}
 	}()
 
-	sc, err := NewSymbolCache()
+	db, err := database.NewDB(dbName)
 	if err != nil {
 		log.Fatal(err)
 	}
+	sc := NewSymbolCache(db)
 	cacher := Cacher(sc)
 	cacher.Build()
-
-	ren := render.New()
 
 	ob := models.NewOrderBook()
 
@@ -48,55 +44,35 @@ func main() {
 		negroni.NewRecovery(),
 		negroni.NewLogger(),
 	)
-
 	statsMiddleware := stats.New()
+	ren := render.New()
 
 	// create the router
 	router := mux.NewRouter()
 
 	// route handler for a health check
-	router.HandleFunc(APIBase+"healthcheck", func(w http.ResponseWriter, r *http.Request) {
-		fmt.Fprint(w, http.StatusOK)
-	}).Methods("HEAD")
+	router.HandleFunc(HealthCheckPath, HealthCheckHandler()).Methods("HEAD")
 
 	// route handler for statistics
-	router.HandleFunc(APIBase+"stats", func(w http.ResponseWriter, r *http.Request) {
-		stats := statsMiddleware.Data()
-		ren.JSON(w, http.StatusOK, stats)
-	}).Methods("GET")
+	router.HandleFunc(StatsPath, StatsHandler(ren, statsMiddleware)).Methods("GET")
 
 	// route handler for the book
-	router.HandleFunc(APIBase+"book", func(w http.ResponseWriter, r *http.Request) {
-		ren.JSON(w, http.StatusOK, ob)
-	}).Methods("GET")
+	router.HandleFunc(BookPath, BookHandler(ren, ob)).Methods("GET")
 
 	// route handler for individual book entries
-	router.HandleFunc(APIBase+"book/{id}", func(w http.ResponseWriter, r *http.Request) {
-		vars := mux.Vars(r)
-		bookID := vars["id"]
-		ren.JSON(w, http.StatusOK, bookID)
-	}).Methods("GET")
+	router.HandleFunc(BookEntryByIDPath, BookEntryByIDHandler(ren)).Methods("GET")
 
 	// route handler for viewing symbol data
-	router.HandleFunc(APIBase+"symbols", func(w http.ResponseWriter, r *http.Request) {
-		cd, err := cacher.All()
-		if err != nil {
-			log.Fatalln(err)
-		}
-		ren.JSON(w, http.StatusOK, map[string]interface{}{"symbols": cd})
-	}).Methods("GET")
+	router.HandleFunc(SymbolsPath, SymbolsHandler(ren, cacher)).Methods("GET")
 
-	// route handler for viewing symbol data
-	router.HandleFunc(APIBase+"symbol/{id}", func(w http.ResponseWriter, r *http.Request) {
-		vars := mux.Vars(r)
-		symbolID := vars["id"]
-		data, err := cacher.Get([]byte(symbolID))
-		if err != nil {
-			ren.JSON(w, http.StatusOK, map[string]interface{}{"error": "symbol not found"})
-			return
-		}
-		ren.JSON(w, http.StatusOK, map[string]interface{}{"symbol": data})
-	}).Methods("GET")
+	// route handler for viewing symbol data by ID
+	router.HandleFunc(SymbolByIDPath, SymbolByIDHandler(ren, cacher)).Methods("GET")
+
+	// route handler for adding trades
+	router.HandleFunc(OrderPath, AddOrderHandler(ren, ob)).Methods("POST")
+
+	// route handler for canceling trades
+	router.HandleFunc(CancelOrderPath, CancelTradeHandler(ren, ob)).Methods("DELETE")
 
 	n.Use(statsMiddleware)
 	n.UseHandler(router)

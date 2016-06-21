@@ -1,17 +1,34 @@
 package models
 
-import "time"
+import (
+	"sort"
+	"sync"
+	"time"
+
+	"gopkg.in/validator.v2"
+)
 
 // Order represents an order
 type Order struct {
-	Time     time.Time
-	Quantity int
-	Bid      float64
+	ID       string    `json:"id",validate:len=32`
+	Symbol   string    `json:"symbol",validate:"nonzero"`
+	Time     time.Time `json:"time",validate:"nonzero"`
+	Quantity int       `json:"quantity",validate:"nonzero"`
+	Bid      float64   `json:"bid",validate:"nonzero"`
+}
+
+// Validate will make sure that all fields are filled in
+func (o Order) Validate() bool {
+	if errs := validator.Validate(o); errs != nil {
+		return false
+	}
+	return true
 }
 
 // OrderBook represents the current state of the market
 type OrderBook struct {
-	Orders []Order
+	Lock   sync.Locker `json:"-"`
+	Orders []Order     `json:"orders"`
 }
 
 // Len gets the length of the
@@ -32,6 +49,33 @@ func (o *OrderBook) Swap(i, j int) {
 // NewOrderBook creates a new value of type OrderBook pointer
 func NewOrderBook() *OrderBook {
 	return &OrderBook{
+		Lock:   &sync.Mutex{},
 		Orders: make([]Order, 0),
 	}
 }
+
+// Add adds an order to the book and sorts the book
+// based on time of entry
+func (o *OrderBook) Add(order Order) error {
+	o.Lock.Lock()
+	defer o.Lock.Unlock()
+	o.Orders = append(o.Orders, order)
+	sort.Sort(o)
+	return nil
+}
+
+// Cancel removes an order from the book
+func (o *OrderBook) Cancel(orderID string) error {
+	o.Lock.Lock()
+	defer o.Lock.Unlock()
+	for idx, i := range o.Orders {
+		if i.ID == orderID {
+			o.Orders = append(o.Orders[:idx], o.Orders[idx+1:]...)
+			return nil
+		}
+	}
+	return nil
+}
+
+// Execute
+func (o *OrderBook) Execute() {}

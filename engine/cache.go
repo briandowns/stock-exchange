@@ -12,17 +12,16 @@ import (
 	"github.com/briandowns/stock-exchange/models"
 )
 
-const symbolCacheDB = "symbol_cache.db"
 const symbolDataFile = "data/nasdaq.json"
 
-var bucketName = []byte("symbol_cache")
+var symbolCacheBucket = []byte("symbol_cache")
 
 // Cacher represents cache behavior
 type Cacher interface {
 	Build() error
 	Get(key []byte) (models.Company, error)
-	Put(key []byte, value models.Company) error
-	All() ([]models.Company, error)
+	Add(key []byte, value models.Company) error
+	Entries() ([]models.Company, error)
 }
 
 // SymbolCache holds the db conn
@@ -32,16 +31,11 @@ type SymbolCache struct {
 }
 
 // NewSymbolCache creates a new symbol cache
-func NewSymbolCache() (*SymbolCache, error) {
-	var err error
-	s := SymbolCache{
+func NewSymbolCache(db *bolt.DB) *SymbolCache {
+	return &SymbolCache{
 		Lock: &sync.Mutex{},
+		DB:   db,
 	}
-	s.DB, err = bolt.Open(symbolCacheDB, 0644, nil)
-	if err != nil {
-		return nil, err
-	}
-	return &s, nil
 }
 
 // generateSymbolData
@@ -75,7 +69,7 @@ func (s *SymbolCache) Build() error {
 			return err
 		}
 		err = s.DB.Update(func(tx *bolt.Tx) error {
-			bucket, err := tx.CreateBucketIfNotExists(bucketName)
+			bucket, err := tx.CreateBucketIfNotExists(symbolCacheBucket)
 			if err != nil {
 				return err
 			}
@@ -99,7 +93,7 @@ func (s *SymbolCache) Get(key []byte) (models.Company, error) {
 	defer s.Lock.Unlock()
 	var company models.Company
 	err := s.DB.View(func(tx *bolt.Tx) error {
-		bucket := tx.Bucket(bucketName)
+		bucket := tx.Bucket(symbolCacheBucket)
 		if bucket == nil {
 			return errors.New("bucket not found")
 		}
@@ -116,20 +110,20 @@ func (s *SymbolCache) Get(key []byte) (models.Company, error) {
 	return company, nil
 }
 
-// Put adds a value to the cache
-func (s *SymbolCache) Put(key []byte, value models.Company) error {
+// Add adds a value to the cache
+func (s *SymbolCache) Add(key []byte, value models.Company) error {
 	s.Lock.Lock()
 	defer s.Lock.Unlock()
 	return nil
 }
 
-// All gets all keys
-func (s *SymbolCache) All() ([]models.Company, error) {
+// Entries gets all entries in the cache
+func (s *SymbolCache) Entries() ([]models.Company, error) {
 	s.Lock.Lock()
 	defer s.Lock.Unlock()
 	var cd []models.Company
 	err := s.DB.Update(func(tx *bolt.Tx) error {
-		bucket := tx.Bucket(bucketName)
+		bucket := tx.Bucket(symbolCacheBucket)
 		var company models.Company
 		if err := bucket.ForEach(func(k, v []byte) error {
 			decoder := json.NewDecoder(strings.NewReader(string(v)))

@@ -5,6 +5,6 @@ import (
 )
 
 // NewDB is called when a new database is needed
-func NewDB() (*bolt.DB, error) {
-	return bolt.Open("blog.db", 0600, nil)
+func NewDB(dbName string) (*bolt.DB, error) {
+	return bolt.Open(dbName, 0600, nil)
 }
