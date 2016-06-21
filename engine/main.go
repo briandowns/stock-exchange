@@ -15,7 +15,7 @@ import (
 	"github.com/unrolled/render"
 )
 
-const dbName = "engine_database.db"
+const dbName = "data/engine_database.db"
 
 var signalsChan = make(chan os.Signal, 1)
 
