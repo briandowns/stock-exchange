@@ -1,6 +1,6 @@
 # stock-exchange
 
-This repo serves as a learning experience on how to build a stock exchange and all of the individual components that make one up.  We're going to have primary and secondary components. 
+This repo serves as a learning experience on how to build a stock exchange and all of the individual components that make one up.  We're going to have primary and secondary components.  All primary components should share as much code as possible from the repo however be deployable independantly.
 
 ## Primary Components
 
@@ -29,7 +29,7 @@ NSQ can be used to notify components of events happening starting or completing 
 
 ## Configuration
 
-We should start with a single configuration file with sections for each primary component.  In later versions we should look at more distributed means of sharing configuration and communicating changes.
+Configuration will start with a single configuration file with sections for each primary component.  In later versions we should look at more distributed means of sharing configuration and communicating changes.
 
 ## System Stand-Up
 
