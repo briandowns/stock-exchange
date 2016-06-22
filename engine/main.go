@@ -1,12 +1,14 @@
 package main
 
 import (
+	"errors"
 	"fmt"
 	"log"
 	"os"
 	"os/signal"
 
 	"github.com/briandowns/stock-exchange/config"
+	"github.com/briandowns/stock-exchange/database"
 	"github.com/briandowns/stock-exchange/models"
 
 	"github.com/codegangsta/negroni"
@@ -17,6 +19,9 @@ import (
 
 const dbName = "data/engine_database.db"
 
+var errUnknownCache = errors.New("unknown cache type")
+
+var cache Cacher
 var signalsChan = make(chan os.Signal, 1)
 
 func main() {
@@ -30,19 +35,23 @@ func main() {
 		}
 	}()
 
-	/*db, err := database.NewDB(dbName)
-	if err != nil {
-		log.Fatal(err)
-	}*/
-
 	config, err := config.Load("../config.json")
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	cache := Cache{
-		//		NewBoltCache(db),
-		NewRedisCache(),
+	// TODO(briandowns) this needs to be simplified 2016-06-22T16:09 4
+	switch config.Engine.CacheLocation {
+	case "redis":
+		cache = Cache{NewRedisCache()}
+	case "boltdb":
+		db, err := database.NewDB(dbName)
+		if err != nil {
+			log.Fatal(err)
+		}
+		cache = Cache{NewBoltCache(db)}
+	default:
+		log.Fatal(errUnknownCache)
 	}
 	cache.Build()
 

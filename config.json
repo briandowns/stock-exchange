@@ -24,6 +24,7 @@
             "port": 1111,
             "user": "",
             "pass": ""
+            "name": "data/engine_database.db"
         },
         "redis": {
             "host": "192.168.99.100",

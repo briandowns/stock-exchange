@@ -34,6 +34,7 @@ type BoltDB struct {
 	Host string `json:"host"`
 	Port int    `json:"port"`
 	User string `json:"user"`
+	Name string `json:"name"`
 	Pass string `json:"pass"`
 }
 
