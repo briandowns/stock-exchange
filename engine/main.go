@@ -2,11 +2,9 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"os"
 	"os/signal"
 
-	"github.com/briandowns/stock-exchange/database"
 	"github.com/briandowns/stock-exchange/models"
 
 	"github.com/codegangsta/negroni"
@@ -30,13 +28,14 @@ func main() {
 		}
 	}()
 
-	db, err := database.NewDB(dbName)
+	/*db, err := database.NewDB(dbName)
 	if err != nil {
 		log.Fatal(err)
-	}
+	}*/
 
 	cache := Cache{
-		NewBoltCache(db),
+		//		NewBoltCache(db),
+		NewRedisCache(),
 	}
 	cache.Build()
 
