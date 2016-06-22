@@ -52,7 +52,9 @@ func SymbolsHandler(ren *render.Render, cacher Cacher) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		cd, err := cacher.Entries()
 		if err != nil {
-			log.Fatalln(err)
+			log.Println(err)
+			ren.JSON(w, http.StatusOK, map[string]interface{}{"error": err})
+			return
 		}
 		ren.JSON(w, http.StatusOK, map[string]interface{}{"symbols": cd})
 	}
@@ -65,7 +67,8 @@ func SymbolByIDHandler(ren *render.Render, cacher Cacher) http.HandlerFunc {
 		symbolID := vars["id"]
 		data, err := cacher.Get([]byte(symbolID))
 		if err != nil {
-			ren.JSON(w, http.StatusOK, map[string]interface{}{"error": "symbol not found"})
+			log.Println(err)
+			ren.JSON(w, http.StatusOK, map[string]interface{}{"error": err})
 			return
 		}
 		ren.JSON(w, http.StatusOK, map[string]interface{}{"symbol": data})

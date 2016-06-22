@@ -2,11 +2,9 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"os"
 	"os/signal"
 
-	"github.com/briandowns/stock-exchange/database"
 	"github.com/briandowns/stock-exchange/models"
 
 	"github.com/codegangsta/negroni"
@@ -30,13 +28,16 @@ func main() {
 		}
 	}()
 
-	db, err := database.NewDB(dbName)
+	/*db, err := database.NewDB(dbName)
 	if err != nil {
 		log.Fatal(err)
+	}*/
+
+	cache := Cache{
+		//		NewBoltCache(db),
+		NewRedisCache(),
 	}
-	sc := NewSymbolCache(db)
-	cacher := Cacher(sc)
-	cacher.Build()
+	cache.Build()
 
 	ob := models.NewOrderBook()
 
@@ -63,10 +64,10 @@ func main() {
 	router.HandleFunc(BookEntryByIDPath, BookEntryByIDHandler(ren)).Methods("GET")
 
 	// route handler for viewing symbol data
-	router.HandleFunc(SymbolsPath, SymbolsHandler(ren, cacher)).Methods("GET")
+	router.HandleFunc(SymbolsPath, SymbolsHandler(ren, cache)).Methods("GET")
 
 	// route handler for viewing symbol data by ID
-	router.HandleFunc(SymbolByIDPath, SymbolByIDHandler(ren, cacher)).Methods("GET")
+	router.HandleFunc(SymbolByIDPath, SymbolByIDHandler(ren, cache)).Methods("GET")
 
 	// route handler for adding trades
 	router.HandleFunc(OrderPath, AddOrderHandler(ren, ob)).Methods("POST")
