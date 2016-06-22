@@ -3,7 +3,6 @@ package main
 import (
 	"bytes"
 	"encoding/json"
-	"fmt"
 	"log"
 	"sync"
 	"time"
@@ -29,6 +28,7 @@ func NewRedisCache() *RedisCache {
 			if err != nil {
 				return nil, err
 			}
+			// leaving this here in case there's auth needed later
 			/*if _, err := c.Do("AUTH", ""); err != nil {
 				c.Close()
 				return nil, err
@@ -60,11 +60,6 @@ func (r *RedisCache) Build() error {
 		return err
 	}
 
-	// flush the cache before loading new data
-	if err := r.Flush(); err != nil {
-		return err
-	}
-
 	// iterate over the symbol data and add to cache
 	for _, symbol := range cache {
 		b, err := json.Marshal(symbol)
@@ -89,19 +84,18 @@ func (r *RedisCache) Get(key []byte) (models.Company, error) {
 	c := r.Pool.Get()
 	defer c.Close()
 
-	var company models.Company
 	result, err := redis.Bytes(c.Do("GET", key))
 	if err != nil {
 		return models.Company{}, nil
 	}
 
+	var company models.Company
 	decoder := json.NewDecoder(bytes.NewReader(result))
 	if err := decoder.Decode(&company); err != nil {
-		log.Println(err)
 		return models.Company{}, err
 	}
 
-	return models.Company{}, nil
+	return company, nil
 }
 
 // Add will add a given entry to the cache
@@ -120,13 +114,26 @@ func (r *RedisCache) Entries() ([]models.Company, error) {
 	c := r.Pool.Get()
 	defer c.Close()
 
-	keys, err := c.Do("GET", "KEYS")
+	keys, err := redis.Strings(c.Do("KEYS", "*"))
 	if err != nil {
 		return nil, err
 	}
 
-	fmt.Println(keys)
-	return nil, nil
+	var symbols []models.Company
+	for _, key := range keys {
+		result, err := redis.Bytes(c.Do("GET", key))
+		if err != nil {
+			return nil, nil
+		}
+		var symbol models.Company
+		decoder := json.NewDecoder(bytes.NewReader(result))
+		if err := decoder.Decode(&symbol); err != nil {
+			return nil, err
+		}
+		symbols = append(symbols, symbol)
+	}
+
+	return symbols, nil
 }
 
 // Flush will flush all of the keys in the database
@@ -137,7 +144,7 @@ func (r *RedisCache) Flush() error {
 	c := r.Pool.Get()
 	defer c.Close()
 
-	_, err := c.Do("FLUSHDB", 0)
+	_, err := c.Do("FLUSHDB")
 	if err != nil {
 		return nil
 	}
