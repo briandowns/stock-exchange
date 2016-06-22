@@ -1,0 +1,31 @@
+{
+  "engine":{
+    "port":"",
+    "debug":true,
+    "cache_location":"",
+    "book_location":""
+  },
+  "book":{
+    "port":"",
+    "debug":true
+  },
+  "reporter":{
+    "port":"",
+    "debug":true
+  },
+  "database": {
+    "host": "",
+    "port": 2222,
+    "user": "",
+    "pass": "",
+    "name": "",
+    "debug": true
+  },
+  "cache": {
+    "host":"",
+    "port":1111,
+    "user":"",
+    "pass":"",
+    "debug":true
+  }
+}
