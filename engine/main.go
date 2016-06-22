@@ -2,9 +2,11 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"os"
 	"os/signal"
 
+	"github.com/briandowns/stock-exchange/config"
 	"github.com/briandowns/stock-exchange/models"
 
 	"github.com/codegangsta/negroni"
@@ -32,6 +34,11 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}*/
+
+	config, err := config.Load("../config.json")
+	if err != nil {
+		log.Fatal(err)
+	}
 
 	cache := Cache{
 		//		NewBoltCache(db),
