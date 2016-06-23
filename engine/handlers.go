@@ -32,14 +32,14 @@ const (
 	CancelOrderPath = OrderPath + ByID
 )
 
-// HealthCheckHandler
+// HealthCheckHandler handles health checking
 func HealthCheckHandler() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, http.StatusOK)
 	}
 }
 
-// StatsHandler
+// StatsHandler handles API stats processing
 func StatsHandler(ren *render.Render, statsMW *stats.Stats) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		statsData := statsMW.Data()
@@ -47,7 +47,7 @@ func StatsHandler(ren *render.Render, statsMW *stats.Stats) http.HandlerFunc {
 	}
 }
 
-// SymbolsHandler
+// SymbolsHandler retrieves all tradable symbols
 func SymbolsHandler(ren *render.Render, cacher Cacher) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		cd, err := cacher.Entries()
@@ -60,7 +60,7 @@ func SymbolsHandler(ren *render.Render, cacher Cacher) http.HandlerFunc {
 	}
 }
 
-// SymbolByIDHandler
+// SymbolByIDHandler retrieves a symbol and data by ID
 func SymbolByIDHandler(ren *render.Render, cacher Cacher) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		vars := mux.Vars(r)
@@ -75,14 +75,14 @@ func SymbolByIDHandler(ren *render.Render, cacher Cacher) http.HandlerFunc {
 	}
 }
 
-// BookHandler
+// BookHandler retrieves the current book
 func BookHandler(ren *render.Render, ob *models.OrderBook) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		ren.JSON(w, http.StatusOK, ob)
 	}
 }
 
-// BookEntryByIDHandler
+// BookEntryByIDHandler retrieves an entry in the book
 func BookEntryByIDHandler(ren *render.Render) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		vars := mux.Vars(r)
@@ -91,7 +91,7 @@ func BookEntryByIDHandler(ren *render.Render) http.HandlerFunc {
 	}
 }
 
-// AddOrderHandler
+// AddOrderHandler adds a new trade
 func AddOrderHandler(ren *render.Render, ob *models.OrderBook) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		var order models.Order

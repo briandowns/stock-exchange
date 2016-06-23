@@ -31,11 +31,12 @@ type Database struct {
 
 // BoltDB holds the BoltDB configuration
 type BoltDB struct {
-	Host string `json:"host"`
-	Port int    `json:"port"`
-	User string `json:"user"`
-	Name string `json:"name"`
-	Pass string `json:"pass"`
+	Host   string `json:"host"`
+	Port   int    `json:"port"`
+	User   string `json:"user"`
+	Pass   string `json:"pass"`
+	Name   string `json:"name"`
+	Bucket string `json:"bucket"`
 }
 
 // Redis holds the redis configuration

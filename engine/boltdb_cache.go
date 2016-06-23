@@ -7,24 +7,25 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/boltdb/bolt"
+	"github.com/briandowns/stock-exchange/config"
 	"github.com/briandowns/stock-exchange/models"
-)
 
-// symbolCacheBucket is the BoltDB bucket used to store the symbols
-var symbolCacheBucket = []byte("symbol_cache")
+	"github.com/boltdb/bolt"
+)
 
 // BoltCache holds the db conn
 type BoltCache struct {
-	Lock sync.Locker // synchronize access to this data
-	DB   *bolt.DB
+	Lock   sync.Locker // synchronize access to this data
+	DB     *bolt.DB
+	config *config.Config
 }
 
 // NewBoltCache creates a new symbol cache
-func NewBoltCache(db *bolt.DB) *BoltCache {
+func NewBoltCache(db *bolt.DB, config *config.Config) *BoltCache {
 	return &BoltCache{
-		Lock: &sync.Mutex{},
-		DB:   db,
+		Lock:   &sync.Mutex{},
+		DB:     db,
+		config: config,
 	}
 }
 
@@ -44,7 +45,7 @@ func (s *BoltCache) Build() error {
 			return err
 		}
 		err = s.DB.Update(func(tx *bolt.Tx) error {
-			bucket, err := tx.CreateBucketIfNotExists(symbolCacheBucket)
+			bucket, err := tx.CreateBucketIfNotExists([]byte(s.config.Cache.BoltDB.Bucket))
 			if err != nil {
 				return err
 			}
@@ -68,7 +69,7 @@ func (s *BoltCache) Get(key []byte) (models.Company, error) {
 	defer s.Lock.Unlock()
 	var company models.Company
 	err := s.DB.View(func(tx *bolt.Tx) error {
-		bucket := tx.Bucket(symbolCacheBucket)
+		bucket := tx.Bucket([]byte(s.config.Cache.BoltDB.Bucket))
 		if bucket == nil {
 			return errors.New("bucket not found")
 		}
@@ -98,7 +99,7 @@ func (s *BoltCache) Entries() ([]models.Company, error) {
 	defer s.Lock.Unlock()
 	var cd []models.Company
 	err := s.DB.Update(func(tx *bolt.Tx) error {
-		bucket := tx.Bucket(symbolCacheBucket)
+		bucket := tx.Bucket([]byte(s.config.Cache.BoltDB.Bucket))
 		var company models.Company
 		if err := bucket.ForEach(func(k, v []byte) error {
 			decoder := json.NewDecoder(strings.NewReader(string(v)))

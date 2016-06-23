@@ -41,13 +41,13 @@ func main() {
 	// TODO(briandowns) this needs to be simplified 2016-06-22T16:09 4
 	switch config.Engine.CacheLocation {
 	case "redis":
-		cache = Cache{NewRedisCache()}
+		cache = Cache{NewRedisCache(config)}
 	case "boltdb":
 		db, err := database.NewDB(config.Cache.BoltDB.Name)
 		if err != nil {
 			log.Fatal(err)
 		}
-		cache = Cache{NewBoltCache(db)}
+		cache = Cache{NewBoltCache(db, config)}
 	default:
 		log.Fatal(errUnknownCache)
 	}
