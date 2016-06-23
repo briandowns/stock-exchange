@@ -53,7 +53,9 @@ func main() {
 	}
 	cache.Build()
 
-	ob := models.NewOrderBook()
+	ob := &models.OrderBook{
+		models.NewNasdaqOrderBook(),
+	}
 
 	n := negroni.New(
 		negroni.NewRecovery(),
