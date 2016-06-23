@@ -8,6 +8,19 @@ This repo serves as a learning experience on how to build a stock exchange and a
 
 The engine is responsible for taking in orders, managing the securities being trades, executing trades, and notifying the reporting and clearing systems of those things.
 
+#### Endpoints
+
+| Method | Resource             | Description
+| :----- | :-------             | :----------
+| HEAD   | /api/v1/healthcheck  | Verifies the service is up and running | 
+| GET    | /api/v1/stats        | Returns API processing statistics |
+| POST   | /api/v1/order        | Add an order |
+| DELETE | /api/v1/order/{id}   | Cancel an order |
+| GET    | /api/v1/book         | Display the current book |
+| GET    | /api/v1/book/{id}    | Retrieve an individual book entry |
+| GET    | /api/v1/symbols      | Display all valid securities and associated data |
+| GET    | /api/v1/symbols/{id} | Retrieve a symbol and it's data |
+
 ### Reporter
 
 The reporter is responsible for relaying trade data to anyone subscribed.  This data can be provided in any number of ways from a REST API, websocket, etc.

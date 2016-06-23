@@ -17,8 +17,6 @@ import (
 	"github.com/unrolled/render"
 )
 
-const dbName = "data/engine_database.db"
-
 var errUnknownCache = errors.New("unknown cache type")
 
 var cache Cacher
@@ -45,7 +43,7 @@ func main() {
 	case "redis":
 		cache = Cache{NewRedisCache()}
 	case "boltdb":
-		db, err := database.NewDB(dbName)
+		db, err := database.NewDB(config.Cache.BoltDB.Name)
 		if err != nil {
 			log.Fatal(err)
 		}

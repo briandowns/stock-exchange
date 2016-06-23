@@ -23,7 +23,7 @@
             "host": "",
             "port": 1111,
             "user": "",
-            "pass": ""
+            "pass": "",
             "name": "data/engine_database.db"
         },
         "redis": {
