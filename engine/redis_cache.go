@@ -3,10 +3,12 @@ package main
 import (
 	"bytes"
 	"encoding/json"
+	"fmt"
 	"log"
 	"sync"
 	"time"
 
+	"github.com/briandowns/stock-exchange/config"
 	"github.com/briandowns/stock-exchange/models"
 
 	"github.com/garyburd/redigo/redis"
@@ -19,12 +21,12 @@ type RedisCache struct {
 }
 
 // NewRedisCache
-func NewRedisCache() *RedisCache {
+func NewRedisCache(config *config.Config) *RedisCache {
 	pool := &redis.Pool{
 		MaxIdle:     10,
 		IdleTimeout: 240 * time.Second,
 		Dial: func() (redis.Conn, error) {
-			c, err := redis.Dial("tcp", "192.168.99.100:6379")
+			c, err := redis.Dial("tcp", fmt.Sprintf("%s:%d", config.Cache.Redis.Host, config.Cache.Redis.Port))
 			if err != nil {
 				return nil, err
 			}

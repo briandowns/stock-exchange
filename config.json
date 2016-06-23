@@ -1,31 +1,38 @@
 {
-  "engine":{
-    "port":"7777",
-    "debug":true,
-    "cache_location":"",
-    "book_location":""
-  },
-  "book":{
-    "port":"",
-    "debug":true
-  },
-  "reporter":{
-    "port":"",
-    "debug":true
-  },
-  "database": {
-    "host": "",
-    "port": 2222,
-    "user": "",
-    "pass": "",
-    "name": "",
-    "debug": true
-  },
-  "cache": {
-    "host":"",
-    "port":1111,
-    "user":"",
-    "pass":"",
-    "debug":true
-  }
+    "engine":{
+        "port": ":7777",
+        "cache_location": "redis",
+        "book_location": "memory",
+        "debug": false
+    },
+    "reporter":{
+        "port": "",
+        "debug": true
+    },
+    "database": {
+        "host": "",
+        "port": 2222,
+        "user": "",
+        "pass": "",
+        "name": "",
+        "debug": true
+    },
+    "cache": {
+        "symbol_file": "data/nasdaq.json",
+        "boltdb" : {
+            "host": "",
+            "port": 1111,
+            "user": "",
+            "pass": "",
+            "name": "data/engine_database.db",
+            "bucket": "symbol_cache"
+        },
+        "redis": {
+            "host": "192.168.99.100",
+            "port": 6379,
+            "user": "", 
+            "pass": "" 
+        },
+        "debug": false
+    }
 }
