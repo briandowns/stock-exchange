@@ -2,10 +2,13 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"os"
 
 	"github.com/briandowns/stock-exchange/models"
 )
+
+var errUnknownCache = errors.New("unknown cache type")
 
 // Cache holds the implemented caching system
 type Cache struct {

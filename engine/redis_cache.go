@@ -70,6 +70,7 @@ func (r *RedisCache) Build() error {
 		if err != nil {
 			return err
 		}
+
 		_, err = c.Do("SET", symbol.Symbol, b)
 		if err != nil {
 			log.Println(err)
