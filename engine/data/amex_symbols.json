@@ -1,0 +1,3722 @@
+[
+  {
+    "Symbol": "XXII",
+    "Name": "22nd Century Group, Inc",
+    "LastSale": 0.83,
+    "MarketCap": "$63.09M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Farming/Seeds/Milling",
+    "Summary Quote": "http://www.nasdaq.com/symbol/xxii"
+  },
+  {
+    "Symbol": "FAX",
+    "Name": "Aberdeen Asia-Pacific Income Fund Inc",
+    "LastSale": 5.05,
+    "MarketCap": "$1.35B",
+    "IPOyear": 1986,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/fax"
+  },
+  {
+    "Symbol": "IAF",
+    "Name": "Aberdeen Australia Equity Fund Inc",
+    "LastSale": 5.73,
+    "MarketCap": "$131.07M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/iaf"
+  },
+  {
+    "Symbol": "CH",
+    "Name": "Aberdeen Chile Fund, Inc.",
+    "LastSale": 6.13,
+    "MarketCap": "$57.54M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ch"
+  },
+  {
+    "Symbol": "ABE",
+    "Name": "Aberdeen Emerging Markets Smaller Company Opportunities Fund I",
+    "LastSale": 12.27,
+    "MarketCap": "$119.45M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/abe"
+  },
+  {
+    "Symbol": "FCO",
+    "Name": "Aberdeen Global Income Fund, Inc.",
+    "LastSale": 8.73,
+    "MarketCap": "$77.21M",
+    "IPOyear": 1992,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/fco"
+  },
+  {
+    "Symbol": "IF",
+    "Name": "Aberdeen Indonesia Fund, Inc.",
+    "LastSale": 6.1,
+    "MarketCap": "$57.71M",
+    "IPOyear": 1990,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/if"
+  },
+  {
+    "Symbol": "ISL",
+    "Name": "Aberdeen Israel Fund, Inc.",
+    "LastSale": 16.9325,
+    "MarketCap": "$68.3M",
+    "IPOyear": 1992,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/isl"
+  },
+  {
+    "Symbol": "ACU",
+    "Name": "Acme United Corporation.",
+    "LastSale": 18.29,
+    "MarketCap": "$60.73M",
+    "IPOyear": 1988,
+    "Sector": "Capital Goods",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/acu"
+  },
+  {
+    "Symbol": "AIII",
+    "Name": "ACRE Realty Investors, Inc.",
+    "LastSale": 1.35,
+    "MarketCap": "$27.62M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/aiii"
+  },
+  {
+    "Symbol": "ATNM",
+    "Name": "Actinium Pharmaceuticals, Inc.",
+    "LastSale": 1.75,
+    "MarketCap": "$82.16M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/atnm"
+  },
+  {
+    "Symbol": "AE",
+    "Name": "Adams Resources & Energy, Inc.",
+    "LastSale": 38.01,
+    "MarketCap": "$160.31M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil Refining/Marketing",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ae"
+  },
+  {
+    "Symbol": "ADK",
+    "Name": "Adcare Health Systems Inc",
+    "LastSale": 1.83,
+    "MarketCap": "$36.51M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Hospital/Nursing Management",
+    "Summary Quote": "http://www.nasdaq.com/symbol/adk"
+  },
+  {
+    "Symbol": "ADK^A",
+    "Name": "Adcare Health Systems Inc",
+    "LastSale": 20.6481,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/adk^a"
+  },
+  {
+    "Symbol": "ACY",
+    "Name": "AeroCentury Corp.",
+    "LastSale": 9.53,
+    "MarketCap": "$14.93M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Diversified Commercial Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/acy"
+  },
+  {
+    "Symbol": "WGA",
+    "Name": "AG&E Holdings, Inc.",
+    "LastSale": 0.2899,
+    "MarketCap": "$3.38M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Radio And Television Broadcasting And Communications Equipment",
+    "Summary Quote": "http://www.nasdaq.com/symbol/wga"
+  },
+  {
+    "Symbol": "AIRI",
+    "Name": "Air Industries Group",
+    "LastSale": 4.66,
+    "MarketCap": "$35.23M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Military/Government/Technical",
+    "Summary Quote": "http://www.nasdaq.com/symbol/airi"
+  },
+  {
+    "Symbol": "AA^",
+    "Name": "Alcoa Inc.",
+    "LastSale": 86.9806,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Metal Fabrications",
+    "Summary Quote": "http://www.nasdaq.com/symbol/aa^"
+  },
+  {
+    "Symbol": "AXU",
+    "Name": "Alexco Resource Corp",
+    "LastSale": 1.27,
+    "MarketCap": "$112.13M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/axu"
+  },
+  {
+    "Symbol": "AAU",
+    "Name": "Almaden Minerals, Ltd.",
+    "LastSale": 1.2216,
+    "MarketCap": "$99.47M",
+    "IPOyear": 2015,
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/aau"
+  },
+  {
+    "Symbol": "APT",
+    "Name": "Alpha Pro Tech, Ltd.",
+    "LastSale": 2.12,
+    "MarketCap": "$37.01M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Industrial Specialties",
+    "Summary Quote": "http://www.nasdaq.com/symbol/apt"
+  },
+  {
+    "Symbol": "AAMC",
+    "Name": "Altisource Asset Management Corp",
+    "LastSale": 16.25,
+    "MarketCap": "$29.15M",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Real Estate",
+    "Summary Quote": "http://www.nasdaq.com/symbol/aamc"
+  },
+  {
+    "Symbol": "DIT",
+    "Name": "AMCON Distributing Company",
+    "LastSale": 86.62,
+    "MarketCap": "$52.32M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Food Distributors",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dit"
+  },
+  {
+    "Symbol": "ADGE",
+    "Name": "American DG Energy Inc.",
+    "LastSale": 0.2516,
+    "MarketCap": "$12.75M",
+    "IPOyear": "n/a",
+    "Sector": "Public Utilities",
+    "industry": "Power Generation",
+    "Summary Quote": "http://www.nasdaq.com/symbol/adge"
+  },
+  {
+    "Symbol": "AFCO",
+    "Name": "American Farmland Company",
+    "LastSale": 6.03,
+    "MarketCap": "$102.04M",
+    "IPOyear": 2015,
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/afco"
+  },
+  {
+    "Symbol": "ALN",
+    "Name": "American Lorain Corporation",
+    "LastSale": 1.16,
+    "MarketCap": "$44.38M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Packaged Foods",
+    "Summary Quote": "http://www.nasdaq.com/symbol/aln"
+  },
+  {
+    "Symbol": "AMS",
+    "Name": "American Shared Hospital Services",
+    "LastSale": 2.22,
+    "MarketCap": "$11.91M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Medical Specialities",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ams"
+  },
+  {
+    "Symbol": "AMPE",
+    "Name": "Ampio Pharmaceuticals, Inc.",
+    "LastSale": 3.34,
+    "MarketCap": "$173.73M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ampe"
+  },
+  {
+    "Symbol": "APHB",
+    "Name": "AmpliPhi Biosciences Corporation",
+    "LastSale": 1.6,
+    "MarketCap": "$13.19M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/aphb"
+  },
+  {
+    "Symbol": "AXN",
+    "Name": "Aoxing Pharmaceutical Company, Inc.",
+    "LastSale": 0.631,
+    "MarketCap": "$48.09M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/axn"
+  },
+  {
+    "Symbol": "AMCO",
+    "Name": "Armco Metals Holdings, Inc.",
+    "LastSale": 0.15,
+    "MarketCap": "$1.22M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Durables",
+    "industry": "Steel/Iron Ore",
+    "Summary Quote": "http://www.nasdaq.com/symbol/amco"
+  },
+  {
+    "Symbol": "HRT",
+    "Name": "Arrhythmia Research Technology Inc.",
+    "LastSale": 4.8,
+    "MarketCap": "$13.52M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+    "Summary Quote": "http://www.nasdaq.com/symbol/hrt"
+  },
+  {
+    "Symbol": "AKG",
+    "Name": "Asanko Gold Inc.",
+    "LastSale": 4.12,
+    "MarketCap": "$811.78M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/akg"
+  },
+  {
+    "Symbol": "AINC",
+    "Name": "Ashford Inc.",
+    "LastSale": 57.22,
+    "MarketCap": "$115.02M",
+    "IPOyear": 2014,
+    "Sector": "Consumer Services",
+    "industry": "Professional Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ainc"
+  },
+  {
+    "Symbol": "ASB.WS",
+    "Name": "Associated Banc-Corp",
+    "LastSale": "n/a",
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/asb.ws"
+  },
+  {
+    "Symbol": "AST",
+    "Name": "Asterias Biotherapeutics, Inc.",
+    "LastSale": 2.99,
+    "MarketCap": "$133.22M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ast"
+  },
+  {
+    "Symbol": "AST.WS",
+    "Name": "Asterias Biotherapeutics, Inc.",
+    "LastSale": "n/a",
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ast.ws"
+  },
+  {
+    "Symbol": "AWX",
+    "Name": "Avalon Holdings Corporation",
+    "LastSale": 2.1,
+    "MarketCap": "$7.99M",
+    "IPOyear": "n/a",
+    "Sector": "Public Utilities",
+    "industry": "Environmental Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/awx"
+  },
+  {
+    "Symbol": "ASM",
+    "Name": "Avino Silver",
+    "LastSale": 2.24,
+    "MarketCap": "$94.06M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/asm"
+  },
+  {
+    "Symbol": "BTG",
+    "Name": "B2Gold Corp",
+    "LastSale": 2.18,
+    "MarketCap": "$2.02B",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/btg"
+  },
+  {
+    "Symbol": "BTN",
+    "Name": "Ballantyne Strong, Inc",
+    "LastSale": 5.1,
+    "MarketCap": "$72.38M",
+    "IPOyear": "n/a",
+    "Sector": "Miscellaneous",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/btn"
+  },
+  {
+    "Symbol": "BKJ",
+    "Name": "Bancorp of New Jersey, Inc",
+    "LastSale": 11.15,
+    "MarketCap": "$69.58M",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Major Banks",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bkj"
+  },
+  {
+    "Symbol": "BCV",
+    "Name": "Bancroft Fund Limited",
+    "LastSale": 18.66,
+    "MarketCap": "$95.3M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bcv"
+  },
+  {
+    "Symbol": "BAA",
+    "Name": "BANRO CORPORATION",
+    "LastSale": 0.284,
+    "MarketCap": "$85.86M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/baa"
+  },
+  {
+    "Symbol": "BHB",
+    "Name": "Bar Harbor Bankshares, Inc.",
+    "LastSale": 35.47,
+    "MarketCap": "$213.64M",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Major Banks",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bhb"
+  },
+  {
+    "Symbol": "BRN",
+    "Name": "Barnwell Industries, Inc.",
+    "LastSale": 1.4,
+    "MarketCap": "$11.59M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/brn"
+  },
+  {
+    "Symbol": "BGSF",
+    "Name": "BG Staffing Inc",
+    "LastSale": 16.14,
+    "MarketCap": "$119.42M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Professional Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bgsf"
+  },
+  {
+    "Symbol": "BPMX",
+    "Name": "BioPharmX Corporation",
+    "LastSale": 0.6,
+    "MarketCap": "$17.32M",
+    "IPOyear": 2015,
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bpmx"
+  },
+  {
+    "Symbol": "BTX",
+    "Name": "BioTime, Inc.",
+    "LastSale": 2.45,
+    "MarketCap": "$232.66M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/btx"
+  },
+  {
+    "Symbol": "BTX.WS",
+    "Name": "BioTime, Inc.",
+    "LastSale": "n/a",
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/btx.ws"
+  },
+  {
+    "Symbol": "BGI",
+    "Name": "Birks Group Inc.",
+    "LastSale": 0.4502,
+    "MarketCap": "$8.09M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Consumer Specialties",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bgi"
+  },
+  {
+    "Symbol": "BZM",
+    "Name": "BlackRock Maryland Municipal Bond Trust",
+    "LastSale": 15.969,
+    "MarketCap": "$33.16M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bzm"
+  },
+  {
+    "Symbol": "MHE",
+    "Name": "BlackRock Massachusetts Tax-Exempt Trust",
+    "LastSale": 15.88,
+    "MarketCap": "$37.57M",
+    "IPOyear": 1993,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mhe"
+  },
+  {
+    "Symbol": "BLE",
+    "Name": "BlackRock Municipal Income Trust II",
+    "LastSale": 16.43,
+    "MarketCap": "$385.62M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ble"
+  },
+  {
+    "Symbol": "BLJ",
+    "Name": "Blackrock New Jersey Municipal Bond Trust",
+    "LastSale": 16.26,
+    "MarketCap": "$37.81M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/blj"
+  },
+  {
+    "Symbol": "BFY",
+    "Name": "BlackRock New York Municipal Income Trust II",
+    "LastSale": 17.05,
+    "MarketCap": "$85.23M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bfy"
+  },
+  {
+    "Symbol": "BHV",
+    "Name": "BlackRock Virginia Municipal Bond Trust",
+    "LastSale": 19.5,
+    "MarketCap": "$31.12M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bhv"
+  },
+  {
+    "Symbol": "BDR",
+    "Name": "Blonder Tongue Laboratories, Inc.",
+    "LastSale": 0.4598,
+    "MarketCap": "$3.11M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Radio And Television Broadcasting And Communications Equipment",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bdr"
+  },
+  {
+    "Symbol": "BRG",
+    "Name": "Bluerock Residential Growth REIT, Inc.",
+    "LastSale": 12.32,
+    "MarketCap": "$241.04M",
+    "IPOyear": 2014,
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/brg"
+  },
+  {
+    "Symbol": "BRG^A",
+    "Name": "Bluerock Residential Growth REIT, Inc.",
+    "LastSale": 26.2,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/brg^a"
+  },
+  {
+    "Symbol": "BVX",
+    "Name": "Bovie Medical Corporation",
+    "LastSale": 1.65,
+    "MarketCap": "$44.87M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Medical/Dental Instruments",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bvx"
+  },
+  {
+    "Symbol": "BWL.A",
+    "Name": "Bowl America, Inc.",
+    "LastSale": "n/a",
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bwl.a"
+  },
+  {
+    "Symbol": "BTI",
+    "Name": "British American Tobacco p.l.c.",
+    "LastSale": 127.15,
+    "MarketCap": "$118.52B",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Farming/Seeds/Milling",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bti"
+  },
+  {
+    "Symbol": "CANF",
+    "Name": "Can-Fite Biopharma Ltd",
+    "LastSale": 2.67,
+    "MarketCap": "$36.94M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/canf"
+  },
+  {
+    "Symbol": "ROX",
+    "Name": "Castle Brands, Inc.",
+    "LastSale": 0.7541,
+    "MarketCap": "$121.01M",
+    "IPOyear": 2006,
+    "Sector": "Consumer Non-Durables",
+    "industry": "Beverages (Production/Distribution)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/rox"
+  },
+  {
+    "Symbol": "CAW",
+    "Name": "CCA Industries, Inc.",
+    "LastSale": 3.3,
+    "MarketCap": "$23.12M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Package Goods/Cosmetics",
+    "Summary Quote": "http://www.nasdaq.com/symbol/caw"
+  },
+  {
+    "Symbol": "CVM",
+    "Name": "Cel-Sci Corporation",
+    "LastSale": 0.443,
+    "MarketCap": "$59.77M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cvm"
+  },
+  {
+    "Symbol": "CVM.WS",
+    "Name": "Cel-Sci Corporation",
+    "LastSale": "n/a",
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cvm.ws"
+  },
+  {
+    "Symbol": "CEF",
+    "Name": "Central Fund of Canada Limited",
+    "LastSale": 13.33,
+    "MarketCap": "$3.39B",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cef"
+  },
+  {
+    "Symbol": "CET",
+    "Name": "Central Securities Corporation",
+    "LastSale": 19.9,
+    "MarketCap": "$492.92M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cet"
+  },
+  {
+    "Symbol": "LEU",
+    "Name": "Centrus Energy Corp.",
+    "LastSale": 3.38,
+    "MarketCap": "$30.42M",
+    "IPOyear": 2014,
+    "Sector": "Basic Industries",
+    "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/leu"
+  },
+  {
+    "Symbol": "CCF",
+    "Name": "Chase Corporation",
+    "LastSale": 61.91,
+    "MarketCap": "$572.3M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Durables",
+    "industry": "Building Products",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ccf"
+  },
+  {
+    "Symbol": "CQH",
+    "Name": "Cheniere Energy Partners LP Holdings, LLC",
+    "LastSale": 19.96,
+    "MarketCap": "$4.62B",
+    "IPOyear": 2013,
+    "Sector": "Public Utilities",
+    "industry": "Oil/Gas Transmission",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cqh"
+  },
+  {
+    "Symbol": "CQP",
+    "Name": "Cheniere Energy Partners, LP",
+    "LastSale": 29.61,
+    "MarketCap": "$10B",
+    "IPOyear": 2007,
+    "Sector": "Public Utilities",
+    "industry": "Oil/Gas Transmission",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cqp"
+  },
+  {
+    "Symbol": "LNG",
+    "Name": "Cheniere Energy, Inc.",
+    "LastSale": 37.67,
+    "MarketCap": "$8.87B",
+    "IPOyear": "n/a",
+    "Sector": "Public Utilities",
+    "industry": "Oil/Gas Transmission",
+    "Summary Quote": "http://www.nasdaq.com/symbol/lng"
+  },
+  {
+    "Symbol": "CVR",
+    "Name": "Chicago Rivet & Machine Co.",
+    "LastSale": 28.18,
+    "MarketCap": "$27.23M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cvr"
+  },
+  {
+    "Symbol": "CNR",
+    "Name": "China Metro-Rural Holdings Limited",
+    "LastSale": 0.98,
+    "MarketCap": "$72.07M",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Real Estate",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cnr"
+  },
+  {
+    "Symbol": "CPHI",
+    "Name": "China Pharma Holdings, Inc.",
+    "LastSale": 0.25,
+    "MarketCap": "$10.89M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cphi"
+  },
+  {
+    "Symbol": "CKX",
+    "Name": "CKX Lands, Inc.",
+    "LastSale": 11.15,
+    "MarketCap": "$21.66M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ckx"
+  },
+  {
+    "Symbol": "GLV",
+    "Name": "Clough Global Allocation Fund",
+    "LastSale": 11.59,
+    "MarketCap": "$120.45M",
+    "IPOyear": 2004,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/glv"
+  },
+  {
+    "Symbol": "GLQ",
+    "Name": "Clough Global Equity Fund",
+    "LastSale": 10.64,
+    "MarketCap": "$187.83M",
+    "IPOyear": 2005,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/glq"
+  },
+  {
+    "Symbol": "GLO",
+    "Name": "Clough Global Opportunities Fund",
+    "LastSale": 9.32,
+    "MarketCap": "$480.67M",
+    "IPOyear": 2006,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/glo"
+  },
+  {
+    "Symbol": "MOC",
+    "Name": "Command Security Corporation",
+    "LastSale": 2.62,
+    "MarketCap": "$25.66M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Diversified Commercial Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/moc"
+  },
+  {
+    "Symbol": "CIX",
+    "Name": "CompX International Inc.",
+    "LastSale": 11.32,
+    "MarketCap": "$140.49M",
+    "IPOyear": 1998,
+    "Sector": "Capital Goods",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cix"
+  },
+  {
+    "Symbol": "LODE",
+    "Name": "Comstock Mining, Inc.",
+    "LastSale": 0.3528,
+    "MarketCap": "$63.11M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/lode"
+  },
+  {
+    "Symbol": "CTO",
+    "Name": "Consolidated-Tomoka Land Co.",
+    "LastSale": 47.9,
+    "MarketCap": "$279.22M",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Real Estate",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cto"
+  },
+  {
+    "Symbol": "MCF",
+    "Name": "Contango Oil & Gas Company",
+    "LastSale": 13.03,
+    "MarketCap": "$255.21M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mcf"
+  },
+  {
+    "Symbol": "CUO",
+    "Name": "Continental Materials Corporation",
+    "LastSale": 15.28,
+    "MarketCap": "$25.57M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Building Materials",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cuo"
+  },
+  {
+    "Symbol": "CMT",
+    "Name": "Core Molding Technologies Inc",
+    "LastSale": 14.31,
+    "MarketCap": "$110.27M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Plastic Products",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cmt"
+  },
+  {
+    "Symbol": "CVRS",
+    "Name": "Corindus Vascular Robotics, Inc.",
+    "LastSale": 1.46,
+    "MarketCap": "$173.64M",
+    "IPOyear": 2015,
+    "Sector": "Health Care",
+    "industry": "Medical/Dental Instruments",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cvrs"
+  },
+  {
+    "Symbol": "CRMD",
+    "Name": "CorMedix Inc",
+    "LastSale": 2.06,
+    "MarketCap": "$74.61M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/crmd"
+  },
+  {
+    "Symbol": "CRF",
+    "Name": "Cornerstone Strategic Return Fund, Inc. (The)",
+    "LastSale": 16.36,
+    "MarketCap": "$125.33M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/crf"
+  },
+  {
+    "Symbol": "CLM",
+    "Name": "Cornerstone Strategic Value Fund, Inc.",
+    "LastSale": 16.4,
+    "MarketCap": "$351.08M",
+    "IPOyear": 1987,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/clm"
+  },
+  {
+    "Symbol": "CVU",
+    "Name": "CPI Aerostructures, Inc.",
+    "LastSale": 6.1,
+    "MarketCap": "$52.52M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Military/Government/Technical",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cvu"
+  },
+  {
+    "Symbol": "CIK",
+    "Name": "Credit Suisse Asset Management Income Fund, Inc.",
+    "LastSale": 2.98,
+    "MarketCap": "$155.78M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cik"
+  },
+  {
+    "Symbol": "DHY",
+    "Name": "Credit Suisse High Yield Bond Fund",
+    "LastSale": 2.46,
+    "MarketCap": "$245.77M",
+    "IPOyear": 1998,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dhy"
+  },
+  {
+    "Symbol": "CRHM",
+    "Name": "CRH Medical Corporation",
+    "LastSale": 3.72,
+    "MarketCap": "$265.79M",
+    "IPOyear": 2015,
+    "Sector": "Health Care",
+    "industry": "Medical/Dental Instruments",
+    "Summary Quote": "http://www.nasdaq.com/symbol/crhm"
+  },
+  {
+    "Symbol": "CRVP",
+    "Name": "Crystal Rock Holdings, Inc.",
+    "LastSale": 0.74,
+    "MarketCap": "$15.81M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Food Distributors",
+    "Summary Quote": "http://www.nasdaq.com/symbol/crvp"
+  },
+  {
+    "Symbol": "DAKP",
+    "Name": "Dakota Plains Holdings, Inc.",
+    "LastSale": 0.1229,
+    "MarketCap": "$6.77M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil Refining/Marketing",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dakp"
+  },
+  {
+    "Symbol": "DXR",
+    "Name": "Daxor Corporation",
+    "LastSale": 7.88,
+    "MarketCap": "$30.36M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Medical/Dental Instruments",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dxr"
+  },
+  {
+    "Symbol": "VCF",
+    "Name": "Delaware Investments Colorado Municipal Income Fund, Inc",
+    "LastSale": 15.7,
+    "MarketCap": "$75.94M",
+    "IPOyear": 1993,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/vcf"
+  },
+  {
+    "Symbol": "VFL",
+    "Name": "Delaware Investments Florida Insured Municipal Income Fund",
+    "LastSale": 14.5,
+    "MarketCap": "$65.66M",
+    "IPOyear": 1993,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/vfl"
+  },
+  {
+    "Symbol": "VMM",
+    "Name": "Delaware Investments Minnesota Municipal Income Fund II, Inc.",
+    "LastSale": 15.25,
+    "MarketCap": "$175.45M",
+    "IPOyear": 1993,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/vmm"
+  },
+  {
+    "Symbol": "DLA",
+    "Name": "Delta Apparel, Inc.",
+    "LastSale": 22.55,
+    "MarketCap": "$173.94M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Apparel",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dla"
+  },
+  {
+    "Symbol": "DNN",
+    "Name": "Denison Mine Corp",
+    "LastSale": 0.58,
+    "MarketCap": "$309.47M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dnn"
+  },
+  {
+    "Symbol": "DGSE",
+    "Name": "DGSE Companies, Inc.",
+    "LastSale": 0.6999,
+    "MarketCap": "$8.63M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Consumer Specialties",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dgse"
+  },
+  {
+    "Symbol": "DPW",
+    "Name": "Digital Power Corporation",
+    "LastSale": 0.4201,
+    "MarketCap": "$2.85M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dpw"
+  },
+  {
+    "Symbol": "DSS",
+    "Name": "Document Security Systems, Inc.",
+    "LastSale": 0.195,
+    "MarketCap": "$10.12M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Durables",
+    "industry": "Containers/Packaging",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dss"
+  },
+  {
+    "Symbol": "DMF",
+    "Name": "Dreyfus Municipal Income, Inc.",
+    "LastSale": 9.82,
+    "MarketCap": "$203.58M",
+    "IPOyear": 1988,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dmf"
+  },
+  {
+    "Symbol": "DXI",
+    "Name": "DXI Energy Inc.",
+    "LastSale": 0.136,
+    "MarketCap": "$4.97M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/dxi"
+  },
+  {
+    "Symbol": "GRF",
+    "Name": "Eagle Capital Growth Fund, Inc.",
+    "LastSale": 7.8201,
+    "MarketCap": "$25.52M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/grf"
+  },
+  {
+    "Symbol": "ESTE",
+    "Name": "Earthstone Energy, Inc.",
+    "LastSale": 10.68,
+    "MarketCap": "$147.76M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/este"
+  },
+  {
+    "Symbol": "EVM",
+    "Name": "Eaton Vance California Municipal Bond Fund",
+    "LastSale": 13.17,
+    "MarketCap": "$281.72M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/evm"
+  },
+  {
+    "Symbol": "EIA",
+    "Name": "Eaton Vance California Municipal Bond Fund II",
+    "LastSale": 13.36,
+    "MarketCap": "$133.78M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/eia"
+  },
+  {
+    "Symbol": "CEV",
+    "Name": "Eaton Vance California Municipal Income Trust",
+    "LastSale": 14.106,
+    "MarketCap": "$102.33M",
+    "IPOyear": 1999,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cev"
+  },
+  {
+    "Symbol": "EVV",
+    "Name": "Eaton Vance Limited Duration Income Fund",
+    "LastSale": 13.46,
+    "MarketCap": "$1.56B",
+    "IPOyear": 2003,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/evv"
+  },
+  {
+    "Symbol": "MAB",
+    "Name": "Eaton Vance Massachusetts Municipal Bond Fund",
+    "LastSale": 15.61,
+    "MarketCap": "$27.61M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mab"
+  },
+  {
+    "Symbol": "MMV",
+    "Name": "Eaton Vance Massachusetts Municipal Income Trust",
+    "LastSale": 15.26,
+    "MarketCap": "$41.77M",
+    "IPOyear": 1999,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mmv"
+  },
+  {
+    "Symbol": "MIW",
+    "Name": "Eaton Vance Michigan Municipal Bond Fund",
+    "LastSale": 15.3715,
+    "MarketCap": "$23.06M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/miw"
+  },
+  {
+    "Symbol": "EMI",
+    "Name": "Eaton Vance Michigan Municipal Income Trust",
+    "LastSale": 14.2501,
+    "MarketCap": "$28.69M",
+    "IPOyear": 1999,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/emi"
+  },
+  {
+    "Symbol": "EIM",
+    "Name": "Eaton Vance Municipal Bond Fund",
+    "LastSale": 13.94,
+    "MarketCap": "$950.27M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/eim"
+  },
+  {
+    "Symbol": "EIV",
+    "Name": "Eaton Vance Municipal Bond Fund II",
+    "LastSale": 13.74,
+    "MarketCap": "$137.58M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/eiv"
+  },
+  {
+    "Symbol": "EMJ",
+    "Name": "Eaton Vance New Jersey Municipal Bond Fund",
+    "LastSale": 14.71,
+    "MarketCap": "$37.94M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/emj"
+  },
+  {
+    "Symbol": "EVJ",
+    "Name": "Eaton Vance New Jersey Municipal Income Trust",
+    "LastSale": 14.32,
+    "MarketCap": "$65.85M",
+    "IPOyear": 1999,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/evj"
+  },
+  {
+    "Symbol": "ENX",
+    "Name": "Eaton Vance New York Municipal Bond Fund",
+    "LastSale": 14.47,
+    "MarketCap": "$226.58M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/enx"
+  },
+  {
+    "Symbol": "NYH",
+    "Name": "Eaton Vance New York Municipal Bond Fund II",
+    "LastSale": 13.95,
+    "MarketCap": "$35.66M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nyh"
+  },
+  {
+    "Symbol": "EVY",
+    "Name": "Eaton Vance New York Municipal Income Trust",
+    "LastSale": 14.7,
+    "MarketCap": "$80.49M",
+    "IPOyear": 1999,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/evy"
+  },
+  {
+    "Symbol": "EIO",
+    "Name": "Eaton Vance Ohio Municipal Bond Fund",
+    "LastSale": 15.36,
+    "MarketCap": "$38.97M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/eio"
+  },
+  {
+    "Symbol": "EVO",
+    "Name": "Eaton Vance Ohio Municipal Income Trust",
+    "LastSale": 15.58,
+    "MarketCap": "$44.51M",
+    "IPOyear": 1999,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/evo"
+  },
+  {
+    "Symbol": "EIP",
+    "Name": "Eaton Vance Pennsylvania Municipal Bond Fund",
+    "LastSale": 14.4,
+    "MarketCap": "$42.62M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/eip"
+  },
+  {
+    "Symbol": "EVP",
+    "Name": "Eaton Vance Pennsylvania Municipal Income Trust",
+    "LastSale": 13.2099,
+    "MarketCap": "$34.36M",
+    "IPOyear": 1999,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/evp"
+  },
+  {
+    "Symbol": "ELMD",
+    "Name": "Electromed, Inc.",
+    "LastSale": 3.98,
+    "MarketCap": "$32.58M",
+    "IPOyear": 2011,
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Electromedical & Electrotherapeutic Apparatus",
+    "Summary Quote": "http://www.nasdaq.com/symbol/elmd"
+  },
+  {
+    "Symbol": "ETAK",
+    "Name": "Elephant Talk Communications Corp.",
+    "LastSale": 0.155,
+    "MarketCap": "$25.43M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "EDP Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/etak"
+  },
+  {
+    "Symbol": "ELLO",
+    "Name": "Ellomay Capital Ltd.",
+    "LastSale": 7.51,
+    "MarketCap": "$80.2M",
+    "IPOyear": "n/a",
+    "Sector": "Public Utilities",
+    "industry": "Electric Utilities: Central",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ello"
+  },
+  {
+    "Symbol": "ECF",
+    "Name": "Ellsworth Growth and Income Fund Ltd.",
+    "LastSale": 7.86,
+    "MarketCap": "$103.05M",
+    "IPOyear": 1986,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ecf"
+  },
+  {
+    "Symbol": "EMAN",
+    "Name": "eMagin Corporation",
+    "LastSale": 2.01,
+    "MarketCap": "$59.07M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Semiconductors",
+    "Summary Quote": "http://www.nasdaq.com/symbol/eman"
+  },
+  {
+    "Symbol": "MSN",
+    "Name": "Emerson Radio Corporation",
+    "LastSale": 0.5994,
+    "MarketCap": "$16.26M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Consumer Electronics/Appliances",
+    "Summary Quote": "http://www.nasdaq.com/symbol/msn"
+  },
+  {
+    "Symbol": "UUUU",
+    "Name": "Energy Fuels Inc",
+    "LastSale": 2.56,
+    "MarketCap": "$147.65M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/uuuu"
+  },
+  {
+    "Symbol": "ENRJ",
+    "Name": "EnerJex Resources, Inc.",
+    "LastSale": 0.31,
+    "MarketCap": "$2.61M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/enrj"
+  },
+  {
+    "Symbol": "ENRJ^",
+    "Name": "EnerJex Resources, Inc.",
+    "LastSale": 0.96,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/enrj^"
+  },
+  {
+    "Symbol": "ENSV",
+    "Name": "ENSERVCO Corporation",
+    "LastSale": 0.69,
+    "MarketCap": "$26.31M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oilfield Services/Equipment",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ensv"
+  },
+  {
+    "Symbol": "ESNC",
+    "Name": "EnSync, Inc.",
+    "LastSale": 0.35,
+    "MarketCap": "$16.69M",
+    "IPOyear": "n/a",
+    "Sector": "Public Utilities",
+    "industry": "Electric Utilities: Central",
+    "Summary Quote": "http://www.nasdaq.com/symbol/esnc"
+  },
+  {
+    "Symbol": "EGI",
+    "Name": "Entree Gold Inc",
+    "LastSale": 0.305,
+    "MarketCap": "$46.55M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/egi"
+  },
+  {
+    "Symbol": "EVI",
+    "Name": "EnviroStarm, Inc.",
+    "LastSale": 3.7,
+    "MarketCap": "$26.02M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/evi"
+  },
+  {
+    "Symbol": "ERB",
+    "Name": "ERBA Diagnostics, Inc.",
+    "LastSale": 0.89,
+    "MarketCap": "$39.24M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/erb"
+  },
+  {
+    "Symbol": "ERN",
+    "Name": "Erin Energy Corp.",
+    "LastSale": 2.3,
+    "MarketCap": "$488.25M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ern"
+  },
+  {
+    "Symbol": "ESP",
+    "Name": "Espey Mfg. & Electronics Corp.",
+    "LastSale": 26.3246,
+    "MarketCap": "$62.25M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/esp"
+  },
+  {
+    "Symbol": "EMXX",
+    "Name": "Eurasian Minerals Inc.",
+    "LastSale": 0.84,
+    "MarketCap": "$61.99M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/emxx"
+  },
+  {
+    "Symbol": "EVBN",
+    "Name": "Evans Bancorp, Inc.",
+    "LastSale": 24.5,
+    "MarketCap": "$104.97M",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Major Banks",
+    "Summary Quote": "http://www.nasdaq.com/symbol/evbn"
+  },
+  {
+    "Symbol": "EPM",
+    "Name": "Evolution Petroleum Corporation, Inc.",
+    "LastSale": 5.78,
+    "MarketCap": "$190.21M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/epm"
+  },
+  {
+    "Symbol": "EPM^A",
+    "Name": "Evolution Petroleum Corporation, Inc.",
+    "LastSale": 25.75,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/epm^a"
+  },
+  {
+    "Symbol": "XRA",
+    "Name": "Exeter Resource Corporation",
+    "LastSale": 0.8672,
+    "MarketCap": "$76.7M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/xra"
+  },
+  {
+    "Symbol": "FPP",
+    "Name": "FieldPoint Petroleum Corporation",
+    "LastSale": 0.7,
+    "MarketCap": "$6.22M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/fpp"
+  },
+  {
+    "Symbol": "FPP.WS",
+    "Name": "FieldPoint Petroleum Corporation",
+    "LastSale": "n/a",
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/fpp.ws"
+  },
+  {
+    "Symbol": "FEN",
+    "Name": "First Trust Energy Income and Growth Fund",
+    "LastSale": 25.36,
+    "MarketCap": "$490.85M",
+    "IPOyear": 2004,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/fen"
+  },
+  {
+    "Symbol": "BDL",
+    "Name": "Flanigan&#39;s Enterprises, Inc.",
+    "LastSale": 22.155,
+    "MarketCap": "$41.18M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Restaurants",
+    "Summary Quote": "http://www.nasdaq.com/symbol/bdl"
+  },
+  {
+    "Symbol": "FSI",
+    "Name": "Flexible Solutions International Inc.",
+    "LastSale": 1.51,
+    "MarketCap": "$17.26M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Major Chemicals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/fsi"
+  },
+  {
+    "Symbol": "FTF",
+    "Name": "Franklin Limited Duration Income Trust",
+    "LastSale": 11.71,
+    "MarketCap": "$314.25M",
+    "IPOyear": 2003,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ftf"
+  },
+  {
+    "Symbol": "FSP",
+    "Name": "Franklin Street Properties Corp.",
+    "LastSale": 12,
+    "MarketCap": "$1.2B",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/fsp"
+  },
+  {
+    "Symbol": "FRD",
+    "Name": "Friedman Industries Inc.",
+    "LastSale": 5.96,
+    "MarketCap": "$40.52M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Steel/Iron Ore",
+    "Summary Quote": "http://www.nasdaq.com/symbol/frd"
+  },
+  {
+    "Symbol": "GGN",
+    "Name": "GAMCO Global Gold, Natural Reources & Income Trust",
+    "LastSale": 6.42,
+    "MarketCap": "$723.18M",
+    "IPOyear": 2005,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ggn"
+  },
+  {
+    "Symbol": "GGN^B",
+    "Name": "GAMCO Global Gold, Natural Reources & Income Trust",
+    "LastSale": 23.69,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ggn^b"
+  },
+  {
+    "Symbol": "EGAS",
+    "Name": "Gas Natural Inc.",
+    "LastSale": 7,
+    "MarketCap": "$73.58M",
+    "IPOyear": "n/a",
+    "Sector": "Public Utilities",
+    "industry": "Oil/Gas Transmission",
+    "Summary Quote": "http://www.nasdaq.com/symbol/egas"
+  },
+  {
+    "Symbol": "GST",
+    "Name": "Gastar Exploration Inc.",
+    "LastSale": 1.14,
+    "MarketCap": "$93.15M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gst"
+  },
+  {
+    "Symbol": "GST^A",
+    "Name": "Gastar Exploration Inc.",
+    "LastSale": 12.5945,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gst^a"
+  },
+  {
+    "Symbol": "GST^B",
+    "Name": "Gastar Exploration Inc.",
+    "LastSale": 13.005,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gst^b"
+  },
+  {
+    "Symbol": "JOB",
+    "Name": "General Employment Enterprises, Inc.",
+    "LastSale": 4.23,
+    "MarketCap": "$39.67M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Diversified Commercial Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/job"
+  },
+  {
+    "Symbol": "GMO",
+    "Name": "General Moly, Inc",
+    "LastSale": 0.35,
+    "MarketCap": "$31.83M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gmo"
+  },
+  {
+    "Symbol": "GIG",
+    "Name": "GigPeak, Inc.",
+    "LastSale": 2.03,
+    "MarketCap": "$108.97M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Semiconductors",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gig"
+  },
+  {
+    "Symbol": "GSB",
+    "Name": "GlobalSCAPE, Inc.",
+    "LastSale": 3.68,
+    "MarketCap": "$77.42M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Computer Software: Prepackaged Software",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gsb"
+  },
+  {
+    "Symbol": "GSAT",
+    "Name": "Globalstar, Inc.",
+    "LastSale": 1.22,
+    "MarketCap": "$1.27B",
+    "IPOyear": 2006,
+    "Sector": "Consumer Services",
+    "industry": "Telecommunications Equipment",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gsat"
+  },
+  {
+    "Symbol": "GLOW",
+    "Name": "Glowpoint, Inc.",
+    "LastSale": 0.319,
+    "MarketCap": "$11.44M",
+    "IPOyear": "n/a",
+    "Sector": "Public Utilities",
+    "industry": "Telecommunications Equipment",
+    "Summary Quote": "http://www.nasdaq.com/symbol/glow"
+  },
+  {
+    "Symbol": "GORO",
+    "Name": "Gold Resource Corporation",
+    "LastSale": 3.26,
+    "MarketCap": "$176.91M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/goro"
+  },
+  {
+    "Symbol": "GSV",
+    "Name": "Gold Standard Ventures Corporation",
+    "LastSale": 1.75,
+    "MarketCap": "$361.96M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Mining & Quarrying of Nonmetallic Minerals (No Fuels)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gsv"
+  },
+  {
+    "Symbol": "AUMN",
+    "Name": "Golden Minerals Company",
+    "LastSale": 0.521,
+    "MarketCap": "$44.12M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/aumn"
+  },
+  {
+    "Symbol": "GSS",
+    "Name": "Golden Star Resources, Ltd",
+    "LastSale": 0.591,
+    "MarketCap": "$167.04M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gss"
+  },
+  {
+    "Symbol": "GV",
+    "Name": "Goldfield Corporation (The)",
+    "LastSale": 3.2,
+    "MarketCap": "$81.44M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Water Supply",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gv"
+  },
+  {
+    "Symbol": "GRC",
+    "Name": "Gorman-Rupp Company (The)",
+    "LastSale": 27.79,
+    "MarketCap": "$724.86M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Fluid Controls",
+    "Summary Quote": "http://www.nasdaq.com/symbol/grc"
+  },
+  {
+    "Symbol": "GTE",
+    "Name": "Gran Tierra Energy Inc.",
+    "LastSale": 3.42,
+    "MarketCap": "$984.83M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gte"
+  },
+  {
+    "Symbol": "GPL",
+    "Name": "Great Panther Silver Limited",
+    "LastSale": 1.53,
+    "MarketCap": "$219.8M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gpl"
+  },
+  {
+    "Symbol": "SIM",
+    "Name": "Grupo Simec, S.A. de C.V.",
+    "LastSale": 7.59,
+    "MarketCap": "$1.26B",
+    "IPOyear": 1993,
+    "Sector": "Basic Industries",
+    "industry": "Steel/Iron Ore",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sim"
+  },
+  {
+    "Symbol": "GVP",
+    "Name": "GSE Systems, Inc.",
+    "LastSale": 2.26,
+    "MarketCap": "$40.75M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Computer Software: Prepackaged Software",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gvp"
+  },
+  {
+    "Symbol": "HCHC",
+    "Name": "HC2 Holdings, Inc.",
+    "LastSale": 4.47,
+    "MarketCap": "$158.78M",
+    "IPOyear": "n/a",
+    "Sector": "Public Utilities",
+    "industry": "Telecommunications Equipment",
+    "Summary Quote": "http://www.nasdaq.com/symbol/hchc"
+  },
+  {
+    "Symbol": "HEB",
+    "Name": "Hemispherx BioPharma, Inc.",
+    "LastSale": 0.12,
+    "MarketCap": "$29.75M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/heb"
+  },
+  {
+    "Symbol": "HLM^",
+    "Name": "Hillman Group Capital Trust",
+    "LastSale": 32.3533,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/hlm^"
+  },
+  {
+    "Symbol": "HMG",
+    "Name": "HMG/Courtland Properties, Inc.",
+    "LastSale": 9.74,
+    "MarketCap": "$10.09M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/hmg"
+  },
+  {
+    "Symbol": "HH",
+    "Name": "Hooper Holmes, Inc.",
+    "LastSale": 1.32,
+    "MarketCap": "$11.28M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Hospital/Nursing Management",
+    "Summary Quote": "http://www.nasdaq.com/symbol/hh"
+  },
+  {
+    "Symbol": "HUSA",
+    "Name": "Houston American Energy Corporation",
+    "LastSale": 0.235,
+    "MarketCap": "$12.1M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/husa"
+  },
+  {
+    "Symbol": "IBIO",
+    "Name": "iBio, Inc.",
+    "LastSale": 0.6301,
+    "MarketCap": "$56.15M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ibio"
+  },
+  {
+    "Symbol": "IBO",
+    "Name": "IBO (Listing Market - NYSE Amex Network B F)",
+    "LastSale": 153.82,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ibo"
+  },
+  {
+    "Symbol": "IDI",
+    "Name": "IDI, Inc.",
+    "LastSale": 4.68,
+    "MarketCap": "$219.61M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Advertising",
+    "Summary Quote": "http://www.nasdaq.com/symbol/idi"
+  },
+  {
+    "Symbol": "IEC",
+    "Name": "IEC Electronics Corp.",
+    "LastSale": 4.38,
+    "MarketCap": "$44.94M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Electrical Products",
+    "Summary Quote": "http://www.nasdaq.com/symbol/iec"
+  },
+  {
+    "Symbol": "IMUC",
+    "Name": "ImmunoCellular Therapeutics, Ltd.",
+    "LastSale": 0.2402,
+    "MarketCap": "$22.39M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/imuc"
+  },
+  {
+    "Symbol": "IMH",
+    "Name": "Impac Mortgage Holdings, Inc.",
+    "LastSale": 15.73,
+    "MarketCap": "$193.83M",
+    "IPOyear": 1997,
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/imh"
+  },
+  {
+    "Symbol": "IMO",
+    "Name": "Imperial Oil Limited",
+    "LastSale": 31.69,
+    "MarketCap": "$26.86B",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Integrated oil Companies",
+    "Summary Quote": "http://www.nasdaq.com/symbol/imo"
+  },
+  {
+    "Symbol": "IOT",
+    "Name": "Income Opportunity Realty Investors, Inc.",
+    "LastSale": 7.046,
+    "MarketCap": "$29.37M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/iot"
+  },
+  {
+    "Symbol": "IRT",
+    "Name": "Independence Realty Trust, Inc.",
+    "LastSale": 7.71,
+    "MarketCap": "$365.9M",
+    "IPOyear": 2013,
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/irt"
+  },
+  {
+    "Symbol": "IGC",
+    "Name": "India Globalization Capital Inc.",
+    "LastSale": 0.49,
+    "MarketCap": "$8.8M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Electronic Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/igc"
+  },
+  {
+    "Symbol": "INFU",
+    "Name": "InfuSystems Holdings, Inc.",
+    "LastSale": 2.7,
+    "MarketCap": "$61.08M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Medical/Dental Instruments",
+    "Summary Quote": "http://www.nasdaq.com/symbol/infu"
+  },
+  {
+    "Symbol": "IHT",
+    "Name": "InnSuites Hospitality Trust",
+    "LastSale": 2.29,
+    "MarketCap": "$21.41M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/iht"
+  },
+  {
+    "Symbol": "NSPR",
+    "Name": "InspireMD, Inc.",
+    "LastSale": 0.39,
+    "MarketCap": "$4.18M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Medical/Dental Instruments",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nspr"
+  },
+  {
+    "Symbol": "IFMI",
+    "Name": "Institutional Financial Markets, Inc.",
+    "LastSale": 0.8738,
+    "MarketCap": "$10.69M",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Investment Bankers/Brokers/Service",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ifmi"
+  },
+  {
+    "Symbol": "IDN",
+    "Name": "Intellicheck Mobilisa, Inc.",
+    "LastSale": 1.47,
+    "MarketCap": "$13.2M",
+    "IPOyear": 1999,
+    "Sector": "Technology",
+    "industry": "Computer Software: Prepackaged Software",
+    "Summary Quote": "http://www.nasdaq.com/symbol/idn"
+  },
+  {
+    "Symbol": "INS",
+    "Name": "Intelligent Systems Corporation",
+    "LastSale": 3.66,
+    "MarketCap": "$31.96M",
+    "IPOyear": 1992,
+    "Sector": "Capital Goods",
+    "industry": "Metal Fabrications",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ins"
+  },
+  {
+    "Symbol": "THM",
+    "Name": "International Tower Hill Mines Ltd",
+    "LastSale": 0.5703,
+    "MarketCap": "$66.33M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/thm"
+  },
+  {
+    "Symbol": "INTT",
+    "Name": "inTest Corporation",
+    "LastSale": 4.02,
+    "MarketCap": "$41.91M",
+    "IPOyear": 1997,
+    "Sector": "Capital Goods",
+    "industry": "Electrical Products",
+    "Summary Quote": "http://www.nasdaq.com/symbol/intt"
+  },
+  {
+    "Symbol": "INUV",
+    "Name": "Inuvo, Inc",
+    "LastSale": 1.58,
+    "MarketCap": "$38.66M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Advertising",
+    "Summary Quote": "http://www.nasdaq.com/symbol/inuv"
+  },
+  {
+    "Symbol": "VKI",
+    "Name": "Invesco Advantage Municipal Income Trust II",
+    "LastSale": 13.03,
+    "MarketCap": "$578.28M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/vki"
+  },
+  {
+    "Symbol": "ISR",
+    "Name": "IsoRay, Inc.",
+    "LastSale": 0.88,
+    "MarketCap": "$48.41M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Medical/Dental Instruments",
+    "Summary Quote": "http://www.nasdaq.com/symbol/isr"
+  },
+  {
+    "Symbol": "ISDR",
+    "Name": "Issuer Direct Corporation",
+    "LastSale": 6.44,
+    "MarketCap": "$18M",
+    "IPOyear": "n/a",
+    "Sector": "Miscellaneous",
+    "industry": "Publishing",
+    "Summary Quote": "http://www.nasdaq.com/symbol/isdr"
+  },
+  {
+    "Symbol": "JRJR",
+    "Name": "JRjr33, Inc.",
+    "LastSale": 1.03,
+    "MarketCap": "$35.4M",
+    "IPOyear": 2014,
+    "Sector": "Consumer Services",
+    "industry": "Other Consumer Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/jrjr"
+  },
+  {
+    "Symbol": "KIQ",
+    "Name": "Kelso Technologies Inc",
+    "LastSale": 0.8561,
+    "MarketCap": "$39.44M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Railroads",
+    "Summary Quote": "http://www.nasdaq.com/symbol/kiq"
+  },
+  {
+    "Symbol": "KLDX",
+    "Name": "Klondex Mines Ltd.",
+    "LastSale": 3.4,
+    "MarketCap": "$484.44M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/kldx"
+  },
+  {
+    "Symbol": "LTS",
+    "Name": "Ladenburg Thalmann Financial Services Inc",
+    "LastSale": 2.48,
+    "MarketCap": "$454.17M",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Investment Bankers/Brokers/Service",
+    "Summary Quote": "http://www.nasdaq.com/symbol/lts"
+  },
+  {
+    "Symbol": "LTS^A",
+    "Name": "Ladenburg Thalmann Financial Services Inc",
+    "LastSale": 24.1,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/lts^a"
+  },
+  {
+    "Symbol": "LAQ",
+    "Name": "Latin America Equity Fund, Inc. (The)",
+    "LastSale": 19.58,
+    "MarketCap": "$145.84M",
+    "IPOyear": 1991,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/laq"
+  },
+  {
+    "Symbol": "LGL",
+    "Name": "LGL Group, Inc. (The)",
+    "LastSale": 3.4,
+    "MarketCap": "$9.06M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/lgl"
+  },
+  {
+    "Symbol": "LBY",
+    "Name": "Libbey, Inc.",
+    "LastSale": 17.1,
+    "MarketCap": "$372.11M",
+    "IPOyear": 1993,
+    "Sector": "Capital Goods",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/lby"
+  },
+  {
+    "Symbol": "LIQT",
+    "Name": "LiqTech International, Inc.",
+    "LastSale": 0.658,
+    "MarketCap": "$26.01M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/liqt"
+  },
+  {
+    "Symbol": "LEI",
+    "Name": "Lucas Energy, Inc.",
+    "LastSale": 3.97,
+    "MarketCap": "$5.83M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/lei"
+  },
+  {
+    "Symbol": "MCZ",
+    "Name": "Mad Catz Interactive Inc",
+    "LastSale": 0.2,
+    "MarketCap": "$14.69M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Recreational Products/Toys",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mcz"
+  },
+  {
+    "Symbol": "MVG",
+    "Name": "Mag Silver Corporation",
+    "LastSale": 12.37,
+    "MarketCap": "$991.03M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mvg"
+  },
+  {
+    "Symbol": "MJCO",
+    "Name": "Majesco",
+    "LastSale": 5.22,
+    "MarketCap": "$190.28M",
+    "IPOyear": 2015,
+    "Sector": "Technology",
+    "industry": "Computer Software: Prepackaged Software",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mjco"
+  },
+  {
+    "Symbol": "MSTX",
+    "Name": "Mast Therapeutics, Inc.",
+    "LastSale": 0.4563,
+    "MarketCap": "$87.99M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mstx"
+  },
+  {
+    "Symbol": "MHH",
+    "Name": "Mastech Holdings, Inc",
+    "LastSale": 6.45,
+    "MarketCap": "$28.07M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Professional Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mhh"
+  },
+  {
+    "Symbol": "MDGN",
+    "Name": "Medgenics, Inc.",
+    "LastSale": 5.73,
+    "MarketCap": "$190.3M",
+    "IPOyear": 2011,
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mdgn"
+  },
+  {
+    "Symbol": "IPB",
+    "Name": "Merrill Lynch & Co., Inc.",
+    "LastSale": 27.43,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Finance: Consumer Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ipb"
+  },
+  {
+    "Symbol": "MXC",
+    "Name": "Mexco Energy Corporation",
+    "LastSale": 2.435,
+    "MarketCap": "$4.96M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mxc"
+  },
+  {
+    "Symbol": "CCA",
+    "Name": "MFS California Insured Municipal Trust",
+    "LastSale": 13.74,
+    "MarketCap": "$38.28M",
+    "IPOyear": 1999,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cca"
+  },
+  {
+    "Symbol": "MGT",
+    "Name": "MGT Capital Investments Inc",
+    "LastSale": 3.2,
+    "MarketCap": "$76.16M",
+    "IPOyear": "n/a",
+    "Sector": "Miscellaneous",
+    "industry": "Multi-Sector Companies",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mgt"
+  },
+  {
+    "Symbol": "MLSS",
+    "Name": "Milestone Scientific, Inc.",
+    "LastSale": 2.45,
+    "MarketCap": "$53.13M",
+    "IPOyear": 2015,
+    "Sector": "Health Care",
+    "industry": "Industrial Specialties",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mlss"
+  },
+  {
+    "Symbol": "MGH",
+    "Name": "Minco Gold Corporation",
+    "LastSale": 0.2778,
+    "MarketCap": "$14.1M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mgh"
+  },
+  {
+    "Symbol": "MGN",
+    "Name": "Mines Management, Inc.",
+    "LastSale": 0.97,
+    "MarketCap": "$33.42M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mgn"
+  },
+  {
+    "Symbol": "MVF",
+    "Name": "MuniVest Fund, Inc.",
+    "LastSale": 10.93,
+    "MarketCap": "$701.33M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mvf"
+  },
+  {
+    "Symbol": "MZA",
+    "Name": "MuniYield Arizona Fund, Inc.",
+    "LastSale": 17.6971,
+    "MarketCap": "$81.53M",
+    "IPOyear": 1993,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/mza"
+  },
+  {
+    "Symbol": "NNVC",
+    "Name": "NanoViricides, Inc.",
+    "LastSale": 1.64,
+    "MarketCap": "$95.08M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Commercial Physical & Biological Resarch",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nnvc"
+  },
+  {
+    "Symbol": "NHC",
+    "Name": "National HealthCare Corporation",
+    "LastSale": 65.03,
+    "MarketCap": "$993.12M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Hospital/Nursing Management",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nhc"
+  },
+  {
+    "Symbol": "NAVB",
+    "Name": "Navidea Biopharmaceuticals, Inc.",
+    "LastSale": 0.6585,
+    "MarketCap": "$102.47M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+    "Summary Quote": "http://www.nasdaq.com/symbol/navb"
+  },
+  {
+    "Symbol": "NTIP",
+    "Name": "Network-1 Technologies, Inc.",
+    "LastSale": 2.75,
+    "MarketCap": "$64.06M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Computer Software: Prepackaged Software",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ntip"
+  },
+  {
+    "Symbol": "NBW",
+    "Name": "Neuberger Berman California Intermediate Municipal Fund Inc.",
+    "LastSale": 16.57,
+    "MarketCap": "$91.83M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nbw"
+  },
+  {
+    "Symbol": "NHS",
+    "Name": "Neuberger Berman High Yield Strategies Fund",
+    "LastSale": 10.98,
+    "MarketCap": "$214.56M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nhs"
+  },
+  {
+    "Symbol": "NBH",
+    "Name": "Neuberger Berman Intermediate Municipal Fund Inc.",
+    "LastSale": 16.64,
+    "MarketCap": "$312.27M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nbh"
+  },
+  {
+    "Symbol": "NML",
+    "Name": "Neuberger Berman MLP Income Fund Inc.",
+    "LastSale": 8.49,
+    "MarketCap": "$480.08M",
+    "IPOyear": 2013,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nml"
+  },
+  {
+    "Symbol": "NBO",
+    "Name": "Neuberger Berman New York Intermediate Municipal Fund Inc.",
+    "LastSale": 14.52,
+    "MarketCap": "$73.7M",
+    "IPOyear": 2002,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nbo"
+  },
+  {
+    "Symbol": "NRO",
+    "Name": "Neuberger Berman Real Estate Securities Income Fund, Inc.",
+    "LastSale": 5.5525,
+    "MarketCap": "$309.76M",
+    "IPOyear": 2003,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nro"
+  },
+  {
+    "Symbol": "UWN",
+    "Name": "Nevada Gold & Casinos, Inc.",
+    "LastSale": 1.92,
+    "MarketCap": "$34.11M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Services-Misc. Amusement & Recreation",
+    "Summary Quote": "http://www.nasdaq.com/symbol/uwn"
+  },
+  {
+    "Symbol": "NSU",
+    "Name": "Nevsun Resources Ltd",
+    "LastSale": 2.91,
+    "MarketCap": "$581.53M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nsu"
+  },
+  {
+    "Symbol": "GBR",
+    "Name": "New Concept Energy, Inc",
+    "LastSale": 1.45,
+    "MarketCap": "$2.82M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/gbr"
+  },
+  {
+    "Symbol": "NEN",
+    "Name": "New England Realty Associates Limited Partnership",
+    "LastSale": 59.03,
+    "MarketCap": "$221.23M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Building operators",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nen"
+  },
+  {
+    "Symbol": "NGD",
+    "Name": "NEW GOLD INC.",
+    "LastSale": 4.11,
+    "MarketCap": "$2.1B",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ngd"
+  },
+  {
+    "Symbol": "HLTH",
+    "Name": "Nobilis Health Corp.",
+    "LastSale": 2.39,
+    "MarketCap": "$183.5M",
+    "IPOyear": 2015,
+    "Sector": "Health Care",
+    "industry": "Hospital/Nursing Management",
+    "Summary Quote": "http://www.nasdaq.com/symbol/hlth"
+  },
+  {
+    "Symbol": "NSAT",
+    "Name": "Norsat International Inc.",
+    "LastSale": 6.36,
+    "MarketCap": "$37.18M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nsat"
+  },
+  {
+    "Symbol": "NAK",
+    "Name": "Northern Dynasty Minerals, Ltd.",
+    "LastSale": 0.3135,
+    "MarketCap": "$81.56M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nak"
+  },
+  {
+    "Symbol": "NOG",
+    "Name": "Northern Oil and Gas, Inc.",
+    "LastSale": 4.9,
+    "MarketCap": "$316.6M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nog"
+  },
+  {
+    "Symbol": "NBY",
+    "Name": "NovaBay Pharmaceuticals, Inc.",
+    "LastSale": 2.61,
+    "MarketCap": "$23.89M",
+    "IPOyear": 2007,
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nby"
+  },
+  {
+    "Symbol": "NCQ",
+    "Name": "NovaCopper Inc.",
+    "LastSale": 0.5,
+    "MarketCap": "$52.49M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ncq"
+  },
+  {
+    "Symbol": "NG",
+    "Name": "Novagold Resources Inc.",
+    "LastSale": 6.19,
+    "MarketCap": "$1.98B",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ng"
+  },
+  {
+    "Symbol": "NTN",
+    "Name": "NTN Buzztime, Inc.",
+    "LastSale": 8.88,
+    "MarketCap": "$1.64B",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Broadcasting",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ntn"
+  },
+  {
+    "Symbol": "NVX",
+    "Name": "Nuveen California Dividend Advantage Municipal Fund 2",
+    "LastSale": 16.65,
+    "MarketCap": "$245.76M",
+    "IPOyear": 2001,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nvx"
+  },
+  {
+    "Symbol": "NZH",
+    "Name": "Nuveen California Dividend Advantage Municipal Fund 3",
+    "LastSale": 15.77,
+    "MarketCap": "$380.88M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nzh"
+  },
+  {
+    "Symbol": "NCB",
+    "Name": "Nuveen California Municipal Value Fund 2",
+    "LastSale": 17.763,
+    "MarketCap": "$58.41M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ncb"
+  },
+  {
+    "Symbol": "CFD",
+    "Name": "Nuveen Diversified Commodity Fund",
+    "LastSale": 9.7,
+    "MarketCap": "$87.76M",
+    "IPOyear": 2010,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/cfd"
+  },
+  {
+    "Symbol": "CTF",
+    "Name": "Nuveen Long/Short Commodity Total Return Fund",
+    "LastSale": 14.79,
+    "MarketCap": "$241.75M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ctf"
+  },
+  {
+    "Symbol": "NOM",
+    "Name": "Nuveen Missouri Premium Income Municipal Fund",
+    "LastSale": 16.7,
+    "MarketCap": "$39.01M",
+    "IPOyear": 1993,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nom"
+  },
+  {
+    "Symbol": "NMZ",
+    "Name": "Nuveen Municipal High Income Opportunity Fund",
+    "LastSale": 14.75,
+    "MarketCap": "$738.75M",
+    "IPOyear": 2003,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nmz"
+  },
+  {
+    "Symbol": "NJV",
+    "Name": "Nuveen New Jersey Municipal Value Fund",
+    "LastSale": 15.7736,
+    "MarketCap": "$24.45M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/njv"
+  },
+  {
+    "Symbol": "NYV",
+    "Name": "Nuveen New York Municipal Value Fund 2",
+    "LastSale": 16.2175,
+    "MarketCap": "$38.1M",
+    "IPOyear": 2009,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/nyv"
+  },
+  {
+    "Symbol": "NPN",
+    "Name": "Nuveen Pennsylvania Municipal Value Fund",
+    "LastSale": 16.36,
+    "MarketCap": "$19.95M",
+    "IPOyear": 2009,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/npn"
+  },
+  {
+    "Symbol": "JRS",
+    "Name": "Nuveen Real Estate Fund",
+    "LastSale": 11.35,
+    "MarketCap": "$327.93M",
+    "IPOyear": 2001,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/jrs"
+  },
+  {
+    "Symbol": "OCX",
+    "Name": "OncoCyte Corporation",
+    "LastSale": 3.72,
+    "MarketCap": "$94.6M",
+    "IPOyear": 2015,
+    "Sector": "Health Care",
+    "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ocx"
+  },
+  {
+    "Symbol": "OGEN",
+    "Name": "Oragenics, Inc.",
+    "LastSale": 0.54,
+    "MarketCap": "$21.63M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ogen"
+  },
+  {
+    "Symbol": "TIS",
+    "Name": "Orchids Paper Products Company",
+    "LastSale": 35,
+    "MarketCap": "$359.66M",
+    "IPOyear": 2005,
+    "Sector": "Basic Industries",
+    "industry": "Paper",
+    "Summary Quote": "http://www.nasdaq.com/symbol/tis"
+  },
+  {
+    "Symbol": "ONVO",
+    "Name": "Organovo Holdings, Inc.",
+    "LastSale": 3.45,
+    "MarketCap": "$318.75M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/onvo"
+  },
+  {
+    "Symbol": "ONP",
+    "Name": "Orient Paper, Inc.",
+    "LastSale": 1.06,
+    "MarketCap": "$22.74M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Durables",
+    "industry": "Containers/Packaging",
+    "Summary Quote": "http://www.nasdaq.com/symbol/onp"
+  },
+  {
+    "Symbol": "OSG",
+    "Name": "Overseas Shipholding Group, Inc.",
+    "LastSale": 11.75,
+    "MarketCap": "$785.52M",
+    "IPOyear": 2015,
+    "Sector": "Transportation",
+    "industry": "Marine Transportation",
+    "Summary Quote": "http://www.nasdaq.com/symbol/osg"
+  },
+  {
+    "Symbol": "ORM",
+    "Name": "Owens Realty Mortgage, Inc.",
+    "LastSale": 16.72,
+    "MarketCap": "$171.34M",
+    "IPOyear": 2013,
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/orm"
+  },
+  {
+    "Symbol": "PHF",
+    "Name": "Pacholder High Yield Fund, Inc.",
+    "LastSale": 7.11,
+    "MarketCap": "$92.41M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/phf"
+  },
+  {
+    "Symbol": "PCG^A",
+    "Name": "Pacific Gas & Electric Co.",
+    "LastSale": 31.35,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pcg^a"
+  },
+  {
+    "Symbol": "PCG^B",
+    "Name": "Pacific Gas & Electric Co.",
+    "LastSale": 28.8,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pcg^b"
+  },
+  {
+    "Symbol": "PCG^C",
+    "Name": "Pacific Gas & Electric Co.",
+    "LastSale": 27.75,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pcg^c"
+  },
+  {
+    "Symbol": "PCG^D",
+    "Name": "Pacific Gas & Electric Co.",
+    "LastSale": 26.07,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pcg^d"
+  },
+  {
+    "Symbol": "PCG^E",
+    "Name": "Pacific Gas & Electric Co.",
+    "LastSale": 26.2604,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pcg^e"
+  },
+  {
+    "Symbol": "PCG^G",
+    "Name": "Pacific Gas & Electric Co.",
+    "LastSale": 26.35,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pcg^g"
+  },
+  {
+    "Symbol": "PCG^H",
+    "Name": "Pacific Gas & Electric Co.",
+    "LastSale": 25.98,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pcg^h"
+  },
+  {
+    "Symbol": "PCG^I",
+    "Name": "Pacific Gas & Electric Co.",
+    "LastSale": 25.49,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pcg^i"
+  },
+  {
+    "Symbol": "PTN",
+    "Name": "Palatin Technologies, Inc.",
+    "LastSale": 0.4785,
+    "MarketCap": "$32.56M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ptn"
+  },
+  {
+    "Symbol": "PARR",
+    "Name": "Par Pacific Holdings, Inc.",
+    "LastSale": 16.2,
+    "MarketCap": "$665.92M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/parr"
+  },
+  {
+    "Symbol": "PZG",
+    "Name": "Paramount Gold Nevada Corp.",
+    "LastSale": 1.57,
+    "MarketCap": "$13.37M",
+    "IPOyear": 2015,
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pzg"
+  },
+  {
+    "Symbol": "PRK",
+    "Name": "Park National Corporation",
+    "LastSale": 93.62,
+    "MarketCap": "$1.44B",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Major Banks",
+    "Summary Quote": "http://www.nasdaq.com/symbol/prk"
+  },
+  {
+    "Symbol": "PED",
+    "Name": "Pedevco Corp.",
+    "LastSale": 0.2387,
+    "MarketCap": "$11.88M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ped"
+  },
+  {
+    "Symbol": "PFNX",
+    "Name": "Pfenex Inc.",
+    "LastSale": 8.34,
+    "MarketCap": "$194.96M",
+    "IPOyear": 2014,
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pfnx"
+  },
+  {
+    "Symbol": "PIP",
+    "Name": "PharmAthene, Inc",
+    "LastSale": 2.34,
+    "MarketCap": "$153.48M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pip"
+  },
+  {
+    "Symbol": "HNW",
+    "Name": "Pioneer Diversified High Income Trust",
+    "LastSale": 15.76,
+    "MarketCap": "$131.32M",
+    "IPOyear": 2007,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/hnw"
+  },
+  {
+    "Symbol": "PLG",
+    "Name": "Platinum Group Metals Ltd.",
+    "LastSale": 2.88,
+    "MarketCap": "$255.15M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/plg"
+  },
+  {
+    "Symbol": "PLM",
+    "Name": "Polymet Mining Corp.",
+    "LastSale": 0.7901,
+    "MarketCap": "$219.39M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/plm"
+  },
+  {
+    "Symbol": "PW",
+    "Name": "Power REIT",
+    "LastSale": 6.26,
+    "MarketCap": "$11.17M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Real Estate Investment Trusts",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pw"
+  },
+  {
+    "Symbol": "PW^A",
+    "Name": "Power REIT",
+    "LastSale": 25.7501,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pw^a"
+  },
+  {
+    "Symbol": "PLX",
+    "Name": "Protalix BioTherapeutics, Inc.",
+    "LastSale": 0.726,
+    "MarketCap": "$72.46M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/plx"
+  },
+  {
+    "Symbol": "PVCT",
+    "Name": "Provectus Biopharmaceuticals, Inc.",
+    "LastSale": 0.34,
+    "MarketCap": "$72.36M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pvct"
+  },
+  {
+    "Symbol": "PVCT.WS",
+    "Name": "Provectus Biopharmaceuticals, Inc.",
+    "LastSale": "n/a",
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/pvct.ws"
+  },
+  {
+    "Symbol": "RLGT",
+    "Name": "Radiant Logistics, Inc.",
+    "LastSale": 3.25,
+    "MarketCap": "$158.52M",
+    "IPOyear": "n/a",
+    "Sector": "Transportation",
+    "industry": "Oil Refining/Marketing",
+    "Summary Quote": "http://www.nasdaq.com/symbol/rlgt"
+  },
+  {
+    "Symbol": "RLGT^A",
+    "Name": "Radiant Logistics, Inc.",
+    "LastSale": 26.092,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/rlgt^a"
+  },
+  {
+    "Symbol": "UTG",
+    "Name": "Reaves Utility Income Fund",
+    "LastSale": 31.17,
+    "MarketCap": "$981.92M",
+    "IPOyear": 2004,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/utg"
+  },
+  {
+    "Symbol": "REED",
+    "Name": "Reeds, Inc.",
+    "LastSale": 2.61,
+    "MarketCap": "$34.41M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Beverages (Production/Distribution)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/reed"
+  },
+  {
+    "Symbol": "RWC",
+    "Name": "RELM Wireless Corporation",
+    "LastSale": 5.22,
+    "MarketCap": "$71.67M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Radio And Television Broadcasting And Communications Equipment",
+    "Summary Quote": "http://www.nasdaq.com/symbol/rwc"
+  },
+  {
+    "Symbol": "RCG",
+    "Name": "RENN Fund, Inc.",
+    "LastSale": 1.1125,
+    "MarketCap": "$4.97M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/rcg"
+  },
+  {
+    "Symbol": "RVP",
+    "Name": "Retractable Technologies, Inc.",
+    "LastSale": 2.73,
+    "MarketCap": "$80.94M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Medical/Dental Instruments",
+    "Summary Quote": "http://www.nasdaq.com/symbol/rvp"
+  },
+  {
+    "Symbol": "RNN",
+    "Name": "Rexahn Pharmaceuticals, Inc.",
+    "LastSale": 0.266,
+    "MarketCap": "$56.7M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/rnn"
+  },
+  {
+    "Symbol": "RIC",
+    "Name": "Richmont Mines, Inc.",
+    "LastSale": 8.61,
+    "MarketCap": "$538.42M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ric"
+  },
+  {
+    "Symbol": "REI",
+    "Name": "Ring Energy, Inc.",
+    "LastSale": 9.65,
+    "MarketCap": "$404.31M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/rei"
+  },
+  {
+    "Symbol": "RIF",
+    "Name": "RMR Real Estate Income Fund",
+    "LastSale": 20.45,
+    "MarketCap": "$156.47M",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/rif"
+  },
+  {
+    "Symbol": "SGA",
+    "Name": "Saga Communications, Inc.",
+    "LastSale": 44.2,
+    "MarketCap": "$259.04M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Broadcasting",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sga"
+  },
+  {
+    "Symbol": "SSN",
+    "Name": "Samson Oil & Gas Limited",
+    "LastSale": 0.71,
+    "MarketCap": "$11.42M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ssn"
+  },
+  {
+    "Symbol": "SPP",
+    "Name": "Sanchez Production Partners LP",
+    "LastSale": 10.6,
+    "MarketCap": "$45.36M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/spp"
+  },
+  {
+    "Symbol": "SAND",
+    "Name": "Sandstorm Gold Ltd",
+    "LastSale": 4.46,
+    "MarketCap": "$616.76M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sand"
+  },
+  {
+    "Symbol": "SEB",
+    "Name": "Seaboard Corporation",
+    "LastSale": 2809,
+    "MarketCap": "$3.29B",
+    "IPOyear": 1996,
+    "Sector": "Finance",
+    "industry": "Investment Bankers/Brokers/Service",
+    "Summary Quote": "http://www.nasdaq.com/symbol/seb"
+  },
+  {
+    "Symbol": "SENS",
+    "Name": "Senseonics Holdings, Inc.",
+    "LastSale": 3.86,
+    "MarketCap": "$358.99M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sens"
+  },
+  {
+    "Symbol": "SVT",
+    "Name": "Servotronics, Inc.",
+    "LastSale": 9.3899,
+    "MarketCap": "$23.19M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/svt"
+  },
+  {
+    "Symbol": "SIF",
+    "Name": "SIFCO Industries, Inc.",
+    "LastSale": 10,
+    "MarketCap": "$54.66M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Aerospace",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sif"
+  },
+  {
+    "Symbol": "SKY",
+    "Name": "Skyline Corporation",
+    "LastSale": 8.82,
+    "MarketCap": "$74.01M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Homebuilding",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sky"
+  },
+  {
+    "Symbol": "XPL",
+    "Name": "Solitario Exploration & Royalty Corp",
+    "LastSale": 0.54,
+    "MarketCap": "$21.07M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/xpl"
+  },
+  {
+    "Symbol": "SCE^B",
+    "Name": "Southern California Edison Company",
+    "LastSale": 24.98,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sce^b"
+  },
+  {
+    "Symbol": "SCE^C",
+    "Name": "Southern California Edison Company",
+    "LastSale": 24.67,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sce^c"
+  },
+  {
+    "Symbol": "SCE^D",
+    "Name": "Southern California Edison Company",
+    "LastSale": 24.9248,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sce^d"
+  },
+  {
+    "Symbol": "SCE^E",
+    "Name": "Southern California Edison Company",
+    "LastSale": 25.3,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sce^e"
+  },
+  {
+    "Symbol": "SGB",
+    "Name": "Southwest Georgia Financial Corporation",
+    "LastSale": 14.8,
+    "MarketCap": "$37.71M",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Major Banks",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sgb"
+  },
+  {
+    "Symbol": "LOV",
+    "Name": "Spark Networks, Inc.",
+    "LastSale": 1.48,
+    "MarketCap": "$38.31M",
+    "IPOyear": "n/a",
+    "Sector": "Miscellaneous",
+    "industry": "Business Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/lov"
+  },
+  {
+    "Symbol": "STRP",
+    "Name": "Straight Path Communications Inc.",
+    "LastSale": 28.73,
+    "MarketCap": "$349.85M",
+    "IPOyear": 2013,
+    "Sector": "Public Utilities",
+    "industry": "Telecommunications Equipment",
+    "Summary Quote": "http://www.nasdaq.com/symbol/strp"
+  },
+  {
+    "Symbol": "SSY",
+    "Name": "SunLink Health Systems, Inc.",
+    "LastSale": 0.5315,
+    "MarketCap": "$5.02M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Hospital/Nursing Management",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ssy"
+  },
+  {
+    "Symbol": "SDPI",
+    "Name": "Superior Drilling Products, Inc.",
+    "LastSale": 1.88,
+    "MarketCap": "$32.82M",
+    "IPOyear": 2014,
+    "Sector": "Energy",
+    "industry": "Metal Fabrications",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sdpi"
+  },
+  {
+    "Symbol": "STS",
+    "Name": "Supreme Industries, Inc.",
+    "LastSale": 13.38,
+    "MarketCap": "$227.21M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Construction/Ag Equipment/Trucks",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sts"
+  },
+  {
+    "Symbol": "SYRG",
+    "Name": "Synergy Resources Corporation",
+    "LastSale": 7.25,
+    "MarketCap": "$1.08B",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/syrg"
+  },
+  {
+    "Symbol": "SYN",
+    "Name": "Synthetic Biologics, Inc",
+    "LastSale": 1.76,
+    "MarketCap": "$159.86M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/syn"
+  },
+  {
+    "Symbol": "TRX",
+    "Name": "Tanzanian Royalty Exploration Corporation",
+    "LastSale": 0.4833,
+    "MarketCap": "$52.29M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/trx"
+  },
+  {
+    "Symbol": "TGB",
+    "Name": "Taseko Mines Limited",
+    "LastSale": 0.4965,
+    "MarketCap": "$110.13M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/tgb"
+  },
+  {
+    "Symbol": "TIK",
+    "Name": "Tel-Instrument Electronics Corp.",
+    "LastSale": 4.24,
+    "MarketCap": "$13.81M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Electrical Products",
+    "Summary Quote": "http://www.nasdaq.com/symbol/tik"
+  },
+  {
+    "Symbol": "TGC",
+    "Name": "Tengasco, Inc.",
+    "LastSale": 0.776,
+    "MarketCap": "$4.72M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/tgc"
+  },
+  {
+    "Symbol": "GLU",
+    "Name": "The Gabelli Global Utility and Income Trust",
+    "LastSale": 18.35,
+    "MarketCap": "$75.44M",
+    "IPOyear": 2004,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/glu"
+  },
+  {
+    "Symbol": "GLU^A",
+    "Name": "The Gabelli Global Utility and Income Trust",
+    "LastSale": 51.197,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/glu^a"
+  },
+  {
+    "Symbol": "TXMD",
+    "Name": "TherapeuticsMD, Inc.",
+    "LastSale": 8.85,
+    "MarketCap": "$1.74B",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Major Pharmaceuticals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/txmd"
+  },
+  {
+    "Symbol": "TGD",
+    "Name": "Timmons Gold Corp",
+    "LastSale": 0.3151,
+    "MarketCap": "$100.53M",
+    "IPOyear": 2011,
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/tgd"
+  },
+  {
+    "Symbol": "TOF",
+    "Name": "Tofutti Brands Inc.",
+    "LastSale": 2.298,
+    "MarketCap": "$11.84M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Specialty Foods",
+    "Summary Quote": "http://www.nasdaq.com/symbol/tof"
+  },
+  {
+    "Symbol": "TMP",
+    "Name": "Tompkins Financial Corporation",
+    "LastSale": 69.1,
+    "MarketCap": "$1.04B",
+    "IPOyear": "n/a",
+    "Sector": "Finance",
+    "industry": "Major Banks",
+    "Summary Quote": "http://www.nasdaq.com/symbol/tmp"
+  },
+  {
+    "Symbol": "TAT",
+    "Name": "Transatlantic Petroleum Ltd",
+    "LastSale": 0.978,
+    "MarketCap": "$40.43M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/tat"
+  },
+  {
+    "Symbol": "TRXC",
+    "Name": "TransEnterix, Inc.",
+    "LastSale": 1.39,
+    "MarketCap": "$159.54M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Medical/Dental Instruments",
+    "Summary Quote": "http://www.nasdaq.com/symbol/trxc"
+  },
+  {
+    "Symbol": "TPLM",
+    "Name": "Triangle Petroleum Corporation",
+    "LastSale": 0.4,
+    "MarketCap": "$30.52M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/tplm"
+  },
+  {
+    "Symbol": "TPHS",
+    "Name": "Trinity Place Holdings Inc.",
+    "LastSale": 7.24,
+    "MarketCap": "$184.46M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Services",
+    "industry": "Clothing/Shoe/Accessory Stores",
+    "Summary Quote": "http://www.nasdaq.com/symbol/tphs"
+  },
+  {
+    "Symbol": "TRT",
+    "Name": "Trio-Tech International",
+    "LastSale": 3.9,
+    "MarketCap": "$13.7M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/trt"
+  },
+  {
+    "Symbol": "HTM",
+    "Name": "U.S. Geothermal Inc.",
+    "LastSale": 0.795,
+    "MarketCap": "$88.67M",
+    "IPOyear": "n/a",
+    "Sector": "Public Utilities",
+    "industry": "Electric Utilities: Central",
+    "Summary Quote": "http://www.nasdaq.com/symbol/htm"
+  },
+  {
+    "Symbol": "UFAB",
+    "Name": "Unique Fabricating, Inc.",
+    "LastSale": 13.82,
+    "MarketCap": "$134.04M",
+    "IPOyear": 2015,
+    "Sector": "Capital Goods",
+    "industry": "Auto Parts:O.E.M.",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ufab"
+  },
+  {
+    "Symbol": "UAMY",
+    "Name": "United States Antimony Corporation",
+    "LastSale": 0.23,
+    "MarketCap": "$15.38M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Metal Fabrications",
+    "Summary Quote": "http://www.nasdaq.com/symbol/uamy"
+  },
+  {
+    "Symbol": "UUU",
+    "Name": "Universal Security Instruments, Inc.",
+    "LastSale": 3.5,
+    "MarketCap": "$8.1M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Non-Durables",
+    "industry": "Electronic Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/uuu"
+  },
+  {
+    "Symbol": "UQM",
+    "Name": "UQM TECHNOLOGIES INC",
+    "LastSale": 0.68,
+    "MarketCap": "$32.94M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Industrial Machinery/Components",
+    "Summary Quote": "http://www.nasdaq.com/symbol/uqm"
+  },
+  {
+    "Symbol": "URG",
+    "Name": "Ur Energy Inc",
+    "LastSale": 0.575,
+    "MarketCap": "$82.48M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/urg"
+  },
+  {
+    "Symbol": "UEC",
+    "Name": "Uranium Energy Corp.",
+    "LastSale": 0.9604,
+    "MarketCap": "$111.8M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/uec"
+  },
+  {
+    "Symbol": "VSR",
+    "Name": "Versar, Inc.",
+    "LastSale": 1.17,
+    "MarketCap": "$11.57M",
+    "IPOyear": 1986,
+    "Sector": "Consumer Services",
+    "industry": "Military/Government/Technical",
+    "Summary Quote": "http://www.nasdaq.com/symbol/vsr"
+  },
+  {
+    "Symbol": "VII",
+    "Name": "Vicon Industries, Inc.",
+    "LastSale": 0.5883,
+    "MarketCap": "$5.5M",
+    "IPOyear": "n/a",
+    "Sector": "Consumer Durables",
+    "industry": "Telecommunications Equipment",
+    "Summary Quote": "http://www.nasdaq.com/symbol/vii"
+  },
+  {
+    "Symbol": "VHC",
+    "Name": "VirnetX Holding Corp",
+    "LastSale": 4.26,
+    "MarketCap": "$237.13M",
+    "IPOyear": "n/a",
+    "Sector": "Miscellaneous",
+    "industry": "Multi-Sector Companies",
+    "Summary Quote": "http://www.nasdaq.com/symbol/vhc"
+  },
+  {
+    "Symbol": "VGZ",
+    "Name": "Vista Gold Corporation",
+    "LastSale": 1.33,
+    "MarketCap": "$110.26M",
+    "IPOyear": "n/a",
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/vgz"
+  },
+  {
+    "Symbol": "VNRX",
+    "Name": "VolitionRX Limited",
+    "LastSale": 3.35,
+    "MarketCap": "$78.39M",
+    "IPOyear": 2015,
+    "Sector": "Health Care",
+    "industry": "Biotechnology: In Vitro & In Vivo Diagnostic Substances",
+    "Summary Quote": "http://www.nasdaq.com/symbol/vnrx"
+  },
+  {
+    "Symbol": "VISI",
+    "Name": "Volt Information Sciences, Inc.",
+    "LastSale": 6.14,
+    "MarketCap": "$127.91M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "Professional Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/visi"
+  },
+  {
+    "Symbol": "EAD",
+    "Name": "Wells Fargo Income Opportunities Fund",
+    "LastSale": 7.94,
+    "MarketCap": "$563.61M",
+    "IPOyear": 2003,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/ead"
+  },
+  {
+    "Symbol": "ERC",
+    "Name": "Wells Fargo Multi-Sector Income Fund",
+    "LastSale": 12.68,
+    "MarketCap": "$533.26M",
+    "IPOyear": 2003,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/erc"
+  },
+  {
+    "Symbol": "ERH",
+    "Name": "Wells Fargo Utilities and High Income Fund",
+    "LastSale": 13.04,
+    "MarketCap": "$120.4M",
+    "IPOyear": 2004,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/erh"
+  },
+  {
+    "Symbol": "SBI",
+    "Name": "Western Asset Intermediate Muni Fund Inc",
+    "LastSale": 10.5,
+    "MarketCap": "$147.81M",
+    "IPOyear": 1992,
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/sbi"
+  },
+  {
+    "Symbol": "WRN",
+    "Name": "Western Copper and Gold Corporation",
+    "LastSale": 0.7623,
+    "MarketCap": "$71.8M",
+    "IPOyear": 2011,
+    "Sector": "Basic Industries",
+    "industry": "Precious Metals",
+    "Summary Quote": "http://www.nasdaq.com/symbol/wrn"
+  },
+  {
+    "Symbol": "WYY",
+    "Name": "WidePoint Corporation",
+    "LastSale": 0.65,
+    "MarketCap": "$53.77M",
+    "IPOyear": "n/a",
+    "Sector": "Technology",
+    "industry": "EDP Services",
+    "Summary Quote": "http://www.nasdaq.com/symbol/wyy"
+  },
+  {
+    "Symbol": "WTT",
+    "Name": "Wireless Telecom Group,  Inc.",
+    "LastSale": 1.34,
+    "MarketCap": "$24.91M",
+    "IPOyear": "n/a",
+    "Sector": "Capital Goods",
+    "industry": "Electrical Products",
+    "Summary Quote": "http://www.nasdaq.com/symbol/wtt"
+  },
+  {
+    "Symbol": "XTNT",
+    "Name": "Xtant Medical Holdings, Inc.",
+    "LastSale": 2.05,
+    "MarketCap": "$24.88M",
+    "IPOyear": "n/a",
+    "Sector": "Health Care",
+    "industry": "Biotechnology: Biological Products (No Diagnostic Substances)",
+    "Summary Quote": "http://www.nasdaq.com/symbol/xtnt"
+  },
+  {
+    "Symbol": "YUMA",
+    "Name": "Yuma Energy, Inc.",
+    "LastSale": 0.298,
+    "MarketCap": "$21.46M",
+    "IPOyear": "n/a",
+    "Sector": "Energy",
+    "industry": "Oil & Gas Production",
+    "Summary Quote": "http://www.nasdaq.com/symbol/yuma"
+  },
+  {
+    "Symbol": "YUMA^A",
+    "Name": "Yuma Energy, Inc.",
+    "LastSale": 3.8,
+    "MarketCap": "n/a",
+    "IPOyear": "n/a",
+    "Sector": "n/a",
+    "industry": "n/a",
+    "Summary Quote": "http://www.nasdaq.com/symbol/yuma^a"
+  },
+  {
+    "Symbol": "ZDGE",
+    "Name": "Zedge, Inc.",
+    "LastSale": 4.07,
+    "MarketCap": "$37.9M",
+    "IPOyear": 2016,
+    "Sector": "Technology",
+    "industry": "Computer Software: Prepackaged Software",
+    "Summary Quote": "http://www.nasdaq.com/symbol/zdge"
+  }
+]
