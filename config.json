@@ -1,5 +1,5 @@
 {
-    "exchange": "NASDAQ",
+    "exchange": "nyse",
     "engine":{
         "port": ":7777",
         "cache_location": "redis",

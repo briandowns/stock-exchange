@@ -33,6 +33,7 @@ func main() {
 		}
 	}()
 
+	// load configuration
 	config, err := config.Load("../config.json")
 	if err != nil {
 		log.Fatal(err)
@@ -53,10 +54,9 @@ func main() {
 	}
 	cache.Build()
 
-	ob := &models.OrderBook{
-		models.NewNasdaqOrderBook(),
-	}
+	ob := &models.OrderBook{models.NewNasdaqOrderBook()}
 
+	// initialize the API
 	n := negroni.New(
 		negroni.NewRecovery(),
 		negroni.NewLogger(),

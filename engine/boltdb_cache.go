@@ -35,7 +35,7 @@ func (s *BoltCache) Build() error {
 	s.Lock.Lock()
 	defer s.Lock.Unlock()
 
-	cache, err := generateSymbolData()
+	cache, err := generateSymbolData("data/" + s.config.Exchange + "_symbols.json")
 	if err != nil {
 		return err
 	}
