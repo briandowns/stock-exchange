@@ -18,7 +18,7 @@
         "debug": true
     },
     "cache": {
-        "symbol_file": "data/nasdaq.json",
+        "symbol_file": "data/nasdaq_symbols.json",
         "boltdb" : {
             "host": "",
             "port": 1111,
