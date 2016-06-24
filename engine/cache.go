@@ -2,12 +2,13 @@ package main
 
 import (
 	"encoding/json"
+	"errors"
 	"os"
 
 	"github.com/briandowns/stock-exchange/models"
 )
 
-const symbolDataFile = "data/nasdaq.json"
+var errUnknownCache = errors.New("unknown cache type")
 
 // Cache holds the implemented caching system
 type Cache struct {
@@ -23,8 +24,8 @@ type Cacher interface {
 }
 
 // generateSymbolData
-func generateSymbolData() ([]models.Company, error) {
-	f, err := os.Open(symbolDataFile)
+func generateSymbolData(symbolFile string) ([]models.Company, error) {
+	f, err := os.Open(symbolFile)
 	if err != nil {
 		return nil, err
 	}

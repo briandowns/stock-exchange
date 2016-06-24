@@ -57,6 +57,7 @@ type Cache struct {
 
 // Config contains the Stock Exchange configuration
 type Config struct {
+	Exchange string   `json:"exchange"`
 	Engine   Engine   `json:"engine"`
 	Reporter Reporter `json:"reporter"`
 	Database Database `json:"database"`

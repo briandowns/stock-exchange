@@ -1,7 +1,6 @@
 package main
 
 import (
-	"errors"
 	"fmt"
 	"log"
 	"os"
@@ -17,8 +16,6 @@ import (
 	"github.com/unrolled/render"
 )
 
-var errUnknownCache = errors.New("unknown cache type")
-
 var cache Cacher
 var signalsChan = make(chan os.Signal, 1)
 
@@ -33,6 +30,7 @@ func main() {
 		}
 	}()
 
+	// load configuration
 	config, err := config.Load("../config.json")
 	if err != nil {
 		log.Fatal(err)
@@ -41,8 +39,10 @@ func main() {
 	// TODO(briandowns) this needs to be simplified 2016-06-22T16:09 4
 	switch config.Engine.CacheLocation {
 	case "redis":
+		log.Println("Using Redis...")
 		cache = Cache{NewRedisCache(config)}
 	case "boltdb":
+		log.Println("Using BoltDB...")
 		db, err := database.NewDB(config.Cache.BoltDB.Name)
 		if err != nil {
 			log.Fatal(err)
@@ -51,12 +51,13 @@ func main() {
 	default:
 		log.Fatal(errUnknownCache)
 	}
-	cache.Build()
-
-	ob := &models.OrderBook{
-		models.NewNasdaqOrderBook(),
+	if err := cache.Build(); err != nil {
+		log.Fatal(err)
 	}
 
+	ob := &models.OrderBook{models.NewNasdaqOrderBook()}
+
+	// initialize the API
 	n := negroni.New(
 		negroni.NewRecovery(),
 		negroni.NewLogger(),

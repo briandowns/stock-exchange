@@ -18,6 +18,7 @@ import (
 type RedisCache struct {
 	sync.Locker // synchronize access to this data
 	*redis.Pool
+	*config.Config
 }
 
 // NewRedisCache
@@ -45,6 +46,7 @@ func NewRedisCache(config *config.Config) *RedisCache {
 	return &RedisCache{
 		&sync.Mutex{},
 		pool,
+		config,
 	}
 }
 
@@ -57,7 +59,7 @@ func (r *RedisCache) Build() error {
 	c := r.Pool.Get()
 	defer c.Close()
 
-	cache, err := generateSymbolData()
+	cache, err := generateSymbolData("data/" + r.Config.Exchange + "_symbols.json")
 	if err != nil {
 		return err
 	}
@@ -68,6 +70,7 @@ func (r *RedisCache) Build() error {
 		if err != nil {
 			return err
 		}
+
 		_, err = c.Do("SET", symbol.Symbol, b)
 		if err != nil {
 			log.Println(err)
