@@ -64,6 +64,7 @@ func (r *RedisCache) Build() error {
 		return err
 	}
 
+	// TODO(briandowns) determine if this would be faster with Go routines 2016-06-26T11:43 2
 	// iterate over the symbol data and add to cache
 	for _, symbol := range cache {
 		b, err := json.Marshal(symbol)
@@ -71,11 +72,17 @@ func (r *RedisCache) Build() error {
 			return err
 		}
 
-		_, err = c.Do("SET", symbol.Symbol, b)
-		if err != nil {
-			log.Println(err)
+		// load all "SET" commands into the buffer for a single send
+		if err = c.Send("SET", symbol.Symbol, b); err != nil {
 			return err
 		}
+	}
+	// send the command set to the server
+	if err = c.Flush(); err != nil {
+		return err
+	}
+	if _, err := c.Receive(); err != nil {
+		return err
 	}
 	log.Println("Building symbol cache complete!")
 	return nil
