@@ -126,30 +126,46 @@ func (r *RedisCache) Entries() ([]models.Company, error) {
 	c := r.Pool.Get()
 	defer c.Close()
 
+	// get all of the keys in the default db
 	keys, err := redis.Strings(c.Do("KEYS", "*"))
 	if err != nil {
 		return nil, err
 	}
 
-	var symbols []models.Company
+	c.Send("MULTI")
+
+	// build the buffer with GET commandds
 	for _, key := range keys {
-		result, err := redis.Bytes(c.Do("GET", key))
+		c.Send("GET", key)
+	}
+
+	// tell Redis to execute the command
+	pipeProx, err := redis.Values(c.Do("EXEC"))
+	if err != nil {
+		return nil, err
+	}
+
+	// collect the result set and return the data
+	var symbols []models.Company
+	for _, v := range pipeProx {
+		s, err := redis.Bytes(v, nil)
 		if err != nil {
-			return nil, nil
+			return nil, err
 		}
+
 		var symbol models.Company
-		decoder := json.NewDecoder(bytes.NewReader(result))
+		decoder := json.NewDecoder(bytes.NewReader(s))
 		if err := decoder.Decode(&symbol); err != nil {
 			return nil, err
 		}
+
 		symbols = append(symbols, symbol)
 	}
-
 	return symbols, nil
 }
 
-// Flush will flush all of the keys in the database
-func (r *RedisCache) Flush() error {
+// FlushDB will flush all of the keys in the database
+func (r *RedisCache) FlushDB() error {
 	r.Lock()
 	defer r.Unlock()
 

@@ -20,6 +20,7 @@ type Cacher interface {
 	Build() error
 	Get(key []byte) (models.Company, error)
 	Add(key []byte, value models.Company) error
+	//Entries() ([]models.Company, error)
 	Entries() ([]models.Company, error)
 }
 
