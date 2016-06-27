@@ -69,7 +69,8 @@ func main() {
 	router := mux.NewRouter()
 
 	// route handler for a health check
-	router.HandleFunc(HealthCheckPath, HealthCheckHandler()).Methods("HEAD")
+	//router.HandleFunc(HealthCheckPath, HealthCheckHandler()).Methods("HEAD")
+	router.HandleFunc(HealthCheckPath, HealthCheckHandler).Methods("HEAD")
 
 	// route handler for statistics
 	router.HandleFunc(StatsPath, StatsHandler(ren, statsMiddleware)).Methods("GET")
