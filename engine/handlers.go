@@ -33,10 +33,15 @@ const (
 )
 
 // HealthCheckHandler handles health checking
-func HealthCheckHandler() http.HandlerFunc {
+/*func HealthCheckHandler() http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
 		fmt.Fprint(w, http.StatusOK)
 	}
+}*/
+
+// HealthCheckHandler handles health checking
+func HealthCheckHandler(w http.ResponseWriter, r *http.Request) {
+	fmt.Fprint(w, http.StatusOK)
 }
 
 // StatsHandler handles API stats processing
